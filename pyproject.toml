@@ -12,6 +12,7 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "GPL-3.0-or-later" }
+keywords = ["education", "SGA", "SGE", "SIE", "sage-edu", "school"]
 dependencies = [
     "akademy_party==1.0",
     "akademy_company==1.0.1",
@@ -23,6 +24,22 @@ Documentation = "https://docs.comunidadedosaber.ao"
 Demo = "https://sage.comunidadedosaber.ao"
 Repository = "https://github.com/comunidadedosaber/akademy-classe"
 "Bug Tracker" = "https://github.com/comunidadedosaber/akademy-classe/issues"
+
+[tool.poetry]
+classifiers=[
+    'Development Status :: 1 - Production/Stable',
+    'Environment :: Plugins',
+    'Framework :: Tryton',
+    'Intended Audience :: Developers',
+    'Intended Audience :: Educational Institution',
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+) ",
+    'Natural Language :: Portuguese',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python :: 3',
+    'Topic :: Education',
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
 
 [tool.hatch.build]
 exclude = ["dist"]
