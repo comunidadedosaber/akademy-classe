@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- This file is part of SAGE Education.   The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form>
+    <group id="course" colspan="4" col="6">    
+        <label name="name"/>
+        <field name="name"/>  
+        <label name="duration"/>
+        <field name="duration" widget="selection"/>           
+        <label name="code"/>
+        <field name="code"/> 
+    </group>
+    <notebook colspan="4">
+        <page string="Descrição" id="description">
+            <field name="description" widget="richtext"/>
+        </page>
+        <page string="Classes" id="course_classe">
+            <field name="course_classe" mode="tree,form" colspan="4"
+                view_ids="akademy_classe.course_classe_view_list,akademy_classe.course_classe_view_form"/>
+        </page>
+    </notebook> 
+</form>

@@ -1,0 +1,1730 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "model:akademy_classe.classes,name:"
+msgid "Classes"
+msgstr "Class"
+
+msgctxt "model:akademy_classe.classe.student,name:"
+msgid "Classe Student"
+msgstr "Students"
+
+msgctxt "model:akademy_classe.classe.student.discipline,name:"
+msgid "Classe Student Discipline"
+msgstr "Student Discipline"
+
+msgctxt "model:akademy_classe.classe.teacher,name:"
+msgid "Classe Teacher"
+msgstr "Teachers"
+
+msgctxt "model:akademy_classe.classe.teacher.discipline,name:"
+msgid "Classe Teacher Discipline"
+msgstr "Teacher Discipline"
+
+msgctxt "model:akademy_classe.classe.teacher.lesson,name:"
+msgid "Classes Teacher Lesson"
+msgstr "Teacher Lessons"
+
+msgctxt "model:akademy_classe.classe.timerule,name:"
+msgid "Classe TimeRule"
+msgstr "Time schedule"
+
+msgctxt "model:akademy_classe.classe.teacher.presence,name:"
+msgid "Classe Teacher Presence"
+msgstr "Teacher Presences"
+
+msgctxt "model:akademy_classe.classe.student.presence,name:"
+msgid "Classe Student Presence"
+msgstr "Student Presences"
+
+msgctxt "model:akademy_configuration.lective.year,name:"
+msgid "Lective Year"
+msgstr "Lective Year"
+
+msgctxt "model:akademy_configuration.quarter,name:"
+msgid "Quarter"
+msgstr "Quarter"
+
+msgctxt "model:akademy_configuration.time.course,name:"
+msgid "Time Course"
+msgstr "Time Course"
+
+msgctxt "model:akademy_configuration.classe,name:"
+msgid "Classe"
+msgstr "Classe"
+
+msgctxt "model:akademy_configuration.classe.time.type,name:"
+msgid "Classe Time - Type"
+msgstr "Classe Time Type"
+
+msgctxt "model:akademy_configuration.matriculation.type,name:"
+msgid "Matriculation Type"
+msgstr "Matriculation Type"
+
+msgctxt "model:akademy_configuration.matriculation.state,name:"
+msgid "Matriculation State"
+msgstr "Matriculation State"
+
+msgctxt "model:akademy_configuration.discipline,name:"
+msgid "Discipline"
+msgstr "Discipline"
+
+msgctxt "model:akademy_configuration.discipline.modality,name:"
+msgid "Discipline Modality Frequence"
+msgstr "Discipline Modality"
+
+msgctxt "model:akademy_configuration.discipline.state,name:"
+msgid "Discipline State Frequence"
+msgstr "Discipline State"
+
+msgctxt "model:akademy_configuration.discipline.precedents,name:"
+msgid "Discipline Precedents"
+msgstr "Discipline Precedents"
+
+msgctxt "model:akademy_configuration.classe.lesson.type,name:"
+msgid "Classe Lesson - Type"
+msgstr "Classe Lesson Type"
+
+msgctxt "model:akademy_configuration.classe.room,name:"
+msgid "Classe Room"
+msgstr "Classe Room"
+
+msgctxt "model:akademy_configuration.academic.level,name:"
+msgid "Academic Level"
+msgstr "Academic Level"
+
+msgctxt "model:akademy_configuration.area,name:"
+msgid "Area"
+msgstr "Area"
+
+msgctxt "model:akademy_configuration.course,name:"
+msgid "Course"
+msgstr "Course"
+
+msgctxt "model:akademy_configuration.course.classe,name:"
+msgid "Course Classe"
+msgstr "Course Classe"
+
+msgctxt "model:akademy_configuration.metric.avaliation,name:"
+msgid "Metric Avaliation"
+msgstr "Metric Avaliation"
+
+msgctxt "model:akademy_configuration.avaliation,name:"
+msgid "Avaliation"
+msgstr "Avaliation"
+
+msgctxt "model:akademy_configuration.avaliation.type,name:"
+msgid "Avaliation Type"
+msgstr "Avaliation Type"
+
+msgctxt "model:akademy_configuration.studyplan,name:"
+msgid "StudyPlan
+msgstr "StudyPlan"
+
+msgctxt "model:akademy_configuration.studyplan.discipline,name:"
+msgid "StudyPlan Discipline"
+msgstr "StudyPlan Discipline"
+
+msgctxt "model:akademy_configuration.studyplan.avaliation,name:"
+msgid "StudyPlan Avaliation"
+msgstr "StudyPlan Avaliation"
+
+msgctxt "model:ir.ui.menu,name:akademy_ga"
+msgid "Gestão Pedagogica"
+msgstr "Pedagogical Management"
+
+msgctxt "model:ir.ui.menu,name:akademy_classes"
+msgid "Turmas"
+msgstr "Class"
+
+msgctxt "model:ir.ui.menu,name:akademy_classe_classes"
+msgid "Turmas"
+msgstr "Class"
+
+msgctxt "model:ir.ui.menu,name:akademy_classe_student"
+msgid "Discentes"
+msgstr "Students"
+
+msgctxt "model:ir.ui.menu,name:akademy_classe_teacher"
+msgid "Docentes"
+msgstr "Teacher"
+
+msgctxt "model:ir.ui.menu,name:akademy_classes_teacher_lesson"
+msgid "Plano de aula"
+msgstr "Lesson Plan"
+
+msgctxt "model:ir.ui.menu,name:akademy_config"
+msgid "Configurações"
+msgstr "Configuration"
+
+msgctxt "model:ir.ui.menu,name:akademy_config_academiclevel"
+msgid "Níveis Acadêmicos"
+msgstr "Academic Levels"
+
+msgctxt "model:ir.ui.menu,name:akademy_config_classeroom"
+msgid "Salas de Aula"
+msgstr "Classrooms"
+
+msgctxt "model:ir.ui.menu,name:akademy_config_discipline"
+msgid "Disciplinas"
+msgstr "Disciplines"
+
+msgctxt "model:ir.ui.menu,name:akademy_config_metric"
+msgid "Métricas"
+msgstr "Metric"
+
+msgctxt "model:ir.ui.menu,name:akademy_config_lective_year"
+msgid "Anos letivos"
+msgstr "Lective Years"
+
+msgctxt "model:ir.ui.menu,name:akademy_config_pre"
+msgid "Pré-Configurados"
+msgstr "Pre-Configured"
+
+msgctxt "model:ir.ui.menu,name:akademy_config_classe"
+msgid "Classes"
+msgstr "Classe"
+
+msgctxt "model:ir.ui.menu,name:akademy_config_time_course"
+msgid "Períodos"
+msgstr "Periods"
+
+msgctxt "model:ir.ui.menu,name:akademy_config_classe_lesson_type"
+msgid "Tipos de aula"
+msgstr "Lesson Plan"
+
+msgctxt "model:ir.ui.menu,name:akademy_config_classe_time_type"
+msgid "Tempos letivo"
+msgstr "Academic times"
+
+msgctxt "model:ir.ui.menu,name:akademy_config_matriculation_type"
+msgid "Tipos de matrícula"
+msgstr "Matriculation Type"
+
+msgctxt "model:ir.ui.menu,name:akademy_config_discipline_state"
+msgid "Estados da disciplina"
+msgstr "Discipline states"
+
+msgctxt "model:ir.ui.menu,name:akademy_config_matriculation_state"
+msgid "Estados da matrícula"
+msgstr "Matriculation state"
+
+msgctxt "model:ir.ui.menu,name:akademy_config_discipline_modality"
+msgid "Modalidades da disciplina"
+msgstr "Discipline modality"
+
+msgctxt "field:akademy_classe.classes,code:"
+msgid "Código"
+msgstr "Code"
+
+msgctxt "field:akademy_classe.classes,name:"
+msgid "Nome"
+msgstr "Name"
+
+msgctxt "field:akademy_classe.classes,max_student:"
+msgid "Discentes"
+msgstr "Students"
+
+msgctxt "field:akademy_classe.classes,max_teacher:"
+msgid "Docentes"
+msgstr "Teacher"
+
+msgctxt "field:akademy_classe.classes,modality:"
+msgid "Modalidade"
+msgstr "Modality"
+
+msgctxt "field:akademy_classe.classes,classe:"
+msgid "Classe"
+msgstr "Classe"
+
+msgctxt "field:akademy_classe.classes,time_course:"
+msgid "Período"
+msgstr "Period"
+
+msgctxt "field:akademy_classe.classes,lective_year:"
+msgid "Ano letivo"
+msgstr "Lective year"
+
+msgctxt "field:akademy_classe.classes,studyplan:"
+msgid "Plano de estudo"
+msgstr "Studyplan"
+
+msgctxt "field:akademy_classe.classes,classe_timerule:"
+msgid "Horário"
+msgstr "Time schedule"
+
+msgctxt "field:akademy_classe.classes,classe_student:"
+msgid "Lista de discentes"
+msgstr "Student list"
+
+msgctxt "field:akademy_classe.classes,classe_teacher:"
+msgid "Lista de docentes"
+msgstr "Teacher list"
+
+msgctxt "field:akademy_classe.classes,classe_teacher_lesson:"
+msgid "Plano de aula"
+msgstr "Class plan"
+
+msgctxt "field:akademy_classe.classe.student,description:"
+msgid "Descrição"
+msgstr "Description"
+
+msgctxt "field:akademy_classe.classe.student,state:"
+msgid "Estado"
+msgstr "State"
+
+msgctxt "field:akademy_classe.classe.student,type:"
+msgid "Tipo"
+msgstr "Type"
+
+msgctxt "field:akademy_classe.classe.student,student:"
+msgid "Discente"
+msgstr "Student"
+
+msgctxt "field:akademy_classe.classe.student,classes:"
+msgid "Turma"
+msgstr "Class"
+
+msgctxt "field:akademy_classe.classe.student,classe_student_discipline:"
+msgid "Discente disciplina"
+msgstr "Student discipline"
+
+msgctxt "field:akademy_classe.classe.student,classe_student_presence:"
+msgid "Presenças"
+msgstr "Presence"
+
+msgctxt "field:akademy_classe.classe.student.discipline,code:"
+msgid "Código"
+msgstr "Code"
+
+msgctxt "field:akademy_classe.classe.student.discipline,state:"
+msgid "Estado"
+msgstr "State"
+
+msgctxt "field:akademy_classe.classe.student.discipline,modality:"
+msgid "Modalidade"
+msgstr "Modality"
+
+msgctxt "field:akademy_classe.classe.student.discipline,classe_student:"
+msgid "Discente"
+msgstr "Student"
+
+msgctxt "field:akademy_classe.classe.student.discipline,classes:"
+msgid "Turma"
+msgstr "class"
+
+msgctxt "field:akademy_classe.classe.student.discipline,studyplan_discipline:"
+msgid "Disciplina"
+msgstr "Discipline"
+
+msgctxt "field:akademy_classe.classe.teacher,state:"
+msgid "Estado"
+msgstr "State"
+
+msgctxt "field:akademy_classe.classe.teacher,description:"
+msgid "Descrição"
+msgstr "Description"
+
+msgctxt "field:akademy_classe.classe.teacher,employee:"
+msgid "Funcionário"
+msgstr "Employee"
+
+msgctxt "field:akademy_classe.classe.teacher,classes:"
+msgid "Turma"
+msgstr "Class"
+
+msgctxt "field:akademy_classe.classe.teacher,classe_teacher_discipline:"
+msgid "Disciplina"
+msgstr "Discipline"
+
+msgctxt "field:akademy_classe.classe.teacher,classe_teacher_lesson:"
+msgid "Plano de aula"
+msgstr "Class plan"
+
+msgctxt "field:akademy_classe.classe.teacher,classe_teacher_presence:"
+msgid "Presenças"
+msgstr "Presence"
+
+msgctxt "field:akademy_classe.classe.teacher.discipline,state:"
+msgid "Estado"
+msgstr "State"
+
+msgctxt "field:akademy_classe.classe.teacher.discipline,modality:"
+msgid "Modalidade"
+msgstr "Modality"
+
+msgctxt "field:akademy_classe.classe.teacher.discipline,classe_teacher:"
+msgid "Docente"
+msgstr "Teacher"
+
+msgctxt "field:akademy_classe.classe.teacher.discipline,classes:"
+msgid "Turma"
+msgstr "Class"
+
+msgctxt "field:akademy_classe.classe.teacher.discipline,studyplan_discipline:"
+msgid "Disciplina"
+msgstr "Discipline"
+
+msgctxt "field:akademy_classe.classe.teacher.lesson,lesson_number:"
+msgid "Lição nº"
+msgstr "Lesson nº"
+
+msgctxt "field:akademy_classe.classe.teacher.lesson,objective:"
+msgid "Objectivos"
+msgstr "Objective"
+
+msgctxt "field:akademy_classe.classe.teacher.lesson,unidate:"
+msgid "Unidade"
+msgstr "Unidate"
+
+msgctxt "field:akademy_classe.classe.teacher.lesson,summary:"
+msgid "Sumário"
+msgstr "Summary"
+
+msgctxt "field:akademy_classe.classe.teacher.lesson,lesson_date:"
+msgid "Data"
+msgstr "Date"
+
+msgctxt "field:akademy_classe.classe.teacher.lesson,lesson_type:"
+msgid "Tipo de aula"
+msgstr "Lesson type"
+
+msgctxt "field:akademy_classe.classe.teacher.lesson,classes:"
+msgid "Turma"
+msgstr "Class"
+
+msgctxt "field:akademy_classe.classe.teacher.lesson,classe_timerule:"
+msgid "Horário"
+msgstr "Time schedule"
+
+msgctxt "field:akademy_classe.classe.teacher.lesson,studyplan_discipline:"
+msgid "Disciplina"
+msgstr "Discipline"
+
+msgctxt "field:akademy_classe.classe.teacher.lesson,classe_teacher:"
+msgid "Docente"
+msgstr "Teacher"
+
+msgctxt "field:akademy_classe.classe.timerule,lesson_time:"
+msgid "Tempo"
+msgstr "Time"
+
+msgctxt "field:akademy_classe.classe.timerule,start_lesson:"
+msgid "Entrada"
+msgstr "Input"
+
+msgctxt "field:akademy_classe.classe.timerule,end_lesson:"
+msgid "Saída"
+msgstr "Output"
+
+msgctxt "field:akademy_classe.classe.timerule,studyplan:"
+msgid "Plano de Estudo"
+msgstr "Study plan"
+
+msgctxt "field:akademy_classe.classe.timerule,classes:"
+msgid "Turma"
+msgstr "Class"
+
+msgctxt "field:akademy_classe.classe.timerule,mon:"
+msgid "Segunda-feira"
+msgstr "Monday"
+
+msgctxt "field:akademy_classe.classe.timerule,tue:"
+msgid "Terça-feira"
+msgstr "Tuesday"
+
+msgctxt "field:akademy_classe.classe.timerule,wed:"
+msgid "Quarta-feira"
+msgstr "Wednesday"
+
+msgctxt "field:akademy_classe.classe.timerule,thu:"
+msgid "Quinta-feira"
+msgstr "Thursday"
+
+msgctxt "field:akademy_classe.classe.timerule,fri:"
+msgid "Sexta-feira"
+msgstr "Friday"
+
+msgctxt "field:akademy_classe.classe.timerule,sat:"
+msgid "Sábado"
+msgstr "Saturday"
+
+msgctxt "field:akademy_classe.classe.timerule,mon_room:"
+msgid "Sala"
+msgstr "Classroom"
+
+msgctxt "field:akademy_classe.classe.timerule,tue_room:"
+msgid "Sala"
+msgstr "Classroom"
+
+msgctxt "field:akademy_classe.classe.timerule,wed_room:"
+msgid "Sala"
+msgstr "Classroom"
+
+msgctxt "field:akademy_classe.classe.timerule,thu_room:"
+msgid "Sala"
+msgstr "Classroom"
+
+msgctxt "field:akademy_classe.classe.timerule,fri_room:"
+msgid "Sala"
+msgstr "Classroom"
+
+msgctxt "field:akademy_classe.classe.timerule,sat_room:"
+msgid "Sala"
+msgstr "Classroom"
+
+msgctxt "field:akademy_classe.classe.teacher.presence,presence:"
+msgid "Presença"
+msgstr "Presence"
+
+msgctxt "selection:akademy_classe.classe.teacher.presence,presence:"
+msgid "Presente"
+msgstr "Present"
+
+msgctxt "selection:akademy_classe.classe.teacher.presence,presence:"
+msgid "Ausente"
+msgstr "Absent"
+
+msgctxt "field:akademy_classe.classe.teacher.presence,classe_teacher:"
+msgid "Docente"
+msgstr "Teacher"
+
+msgctxt "field:akademy_classe.classe.teacher.presence,classe_timerule:"
+msgid "Horário"
+msgstr "Time schedule"
+
+msgctxt "field:akademy_classe.classe.teacher.presence,classe_teacher_discipline:"
+msgid "Disciplina"
+msgstr "Discipline"
+
+msgctxt "field:akademy_classe.classe.student.presence,presence:"
+msgid "Presença"
+msgstr "Presence"
+
+msgctxt "selection:akademy_classe.classe.student.presence,presence:"
+msgid "Presente"
+msgstr "Present"
+
+msgctxt "selection:akademy_classe.classe.student.presence,presence:"
+msgid "Ausente"
+msgstr "Absent"
+
+msgctxt "field:akademy_classe.classe.student.presence,classe_student:"
+msgid "Docente"
+msgstr "Teacher"
+
+msgctxt "field:akademy_classe.classe.student.presence,classe_timerule:"
+msgid "Horário"
+msgstr "Time schedule"
+
+msgctxt "field:akademy_classe.classe.student.presence,classe_student_discipline:"
+msgid "Disciplina"
+msgstr "Discipline"
+
+msgctxt "field:company.employee,classe_treacher:"
+msgid "Associar turma"
+msgstr "Join class"
+
+msgctxt "field:company.student,classe:"
+msgid "Classe"
+msgstr "Class"
+
+msgctxt "field:company.student,academic_level:"
+msgid "Nível académico"
+msgstr "Academic level"
+
+msgctxt "field:company.student,area:"
+msgid "Área"
+msgstr "Area"
+
+msgctxt "field:company.student,course:"
+msgid "Curso"
+msgstr "Course"
+
+msgctxt "field:company.student,state:"
+msgid "Estado"
+msgstr "State"
+
+msgctxt "field:company.student,classe_student:"
+msgid "Matrículas"
+msgstr "Enrollment"
+
+msgctxt "field:akademy_configuration.lective.year,code:"
+msgid "Código"
+msgstr "Code"
+
+msgctxt "field:akademy_configuration.lective.year,name:"
+msgid "Nome"
+msgstr "Name"
+
+msgctxt "field:akademy_configuration.lective.year,start:"
+msgid "Início"
+msgstr "Start"
+
+msgctxt "field:akademy_configuration.lective.year,end:"
+msgid "Término"
+msgstr "End"
+
+msgctxt "field:akademy_configuration.lective.year,description:"
+msgid "Descrição"
+msgstr "Description"
+
+msgctxt "field:akademy_configuration.lective.year,classes:"
+msgid "Turma"
+msgstr "Class"
+
+msgctxt "field:akademy_configuration.lective.year,quarter:"
+msgid "Período letivo"
+msgstr "Quarter"
+
+msgctxt "field:akademy_configuration.lective.year,studyplan:"
+msgid "Plano de estudo"
+msgstr "Studyplan"
+
+msgctxt "field:akademy_configuration.quarter,code:"
+msgid "Código"
+msgstr "Code"
+
+msgctxt "field:akademy_configuration.quarter,name:"
+msgid "Nome"
+msgstr "Name"
+
+msgctxt "field:akademy_configuration.quarter,start:"
+msgid "Início"
+msgstr "Start"
+
+msgctxt "field:akademy_configuration.quarter,end:"
+msgid "Término"
+msgstr "End"
+
+msgctxt "field:akademy_configuration.quarter,description:"
+msgid "Descrição"
+msgstr "Description"
+
+msgctxt "field:akademy_configuration.quarter,studyplan_discipline:"
+msgid "Disciplina"
+msgstr "Discipline"
+
+msgctxt "field:akademy_configuration.quarter,studyplan_avaliations:"
+msgid "Avaliação"
+msgstr "Avaliations"
+
+msgctxt "field:akademy_configuration.time.course,code:"
+msgid "Código"
+msgstr "Code"
+
+msgctxt "field:akademy_configuration.time.course,name:"
+msgid "Nome"
+msgstr "Name"
+
+msgctxt "field:akademy_configuration.time.course,description:"
+msgid "Descrição"
+msgstr "Description"
+
+msgctxt "field:akademy_classe.classe.timerule,start_time:"
+msgid "Entrada"
+msgstr "Input"
+
+msgctxt "field:akademy_classe.classe.timerule,end_time:"
+msgid "Saída"
+msgstr "Output"
+
+msgctxt "field:akademy_configuration.time.course,classes:"
+msgid "Turma"
+msgstr "Class"
+
+msgctxt "field:akademy_configuration.classe,code:"
+msgid "Código"
+msgstr "Code"
+
+msgctxt "field:akademy_configuration.classe,name:"
+msgid "Nome"
+msgstr "Name"
+
+msgctxt "field:akademy_configuration.classe,description:"
+msgid "Descrição"
+msgstr "Description"
+
+msgctxt "field:akademy_configuration.classe,course_classe:"
+msgid "Curso"
+msgstr "Course"
+
+msgctxt "field:akademy_configuration.classe,classes:"
+msgid "Turma"
+msgstr "Class"
+
+msgctxt "field:akademy_configuration.classe,student:"
+msgid "Discente"
+msgstr "Student"
+
+msgctxt "field:akademy_configuration.classe.time.type,name:"
+msgid "Nome"
+msgstr "Name"
+
+msgctxt "field:akademy_configuration.classe.time.type,classe_time_rule:"
+msgid "Horário"
+msgstr "Time schedule"
+
+msgctxt "field:akademy_configuration.classe.time.type,classe_teacher_lesson:"
+msgid "Plano de aula"
+msgstr "Lesson Plan"
+
+msgctxt "field:akademy_configuration.matriculation.type,name:"
+msgid "Nome"
+msgstr "Name"
+
+msgctxt "field:akademy_configuration.matriculation.type,classe_student:"
+msgid "Tipo de matrícula"
+msgstr "Type of registration"
+
+msgctxt "field:akademy_configuration.matriculation.state,name:"
+msgid "Nome"
+msgstr "Name"
+
+msgctxt "field:akademy_configuration.matriculation.state,access:"
+msgid "Acesso"
+msgstr "Access"
+
+msgctxt "field:akademy_configuration.matriculation.state,student:"
+msgid "Estado de matrícula"
+msgstr "Registration state"
+
+msgctxt "field:akademy_configuration.matriculation.state,classe_student:"
+msgid "Estado de matrícula"
+msgstr "Registration state"
+
+msgctxt "field:akademy_configuration.matriculation.state,classe_student_discipline:"
+msgid "Estado de matrícula"
+msgstr "Registration state"
+
+msgctxt "field:akademy_configuration.matriculation.state,classe_teacher:"
+msgid "Estado de matrícula"
+msgstr "Registration state"
+
+msgctxt "field:akademy_configuration.matriculation.state,classe_teacher_discipline:"
+msgid "Estado de matrícula"
+msgstr "Registration state"
+
+msgctxt "field:akademy_configuration.discipline,code:"
+msgid "Código"
+msgstr "Code"
+
+msgctxt "field:akademy_configuration.discipline,name:"
+msgid "Nome"
+msgstr "Name"
+
+msgctxt "field:akademy_configuration.discipline,lesson_type:"
+msgid "Aula"
+msgstr "Lesson"
+
+msgctxt "field:akademy_configuration.discipline,description:"
+msgid "Descrição"
+msgstr "Description"
+
+msgctxt "field:akademy_configuration.discipline,studyplan_discipline:"
+msgid "Disciplina"
+msgstr "Discipline"
+
+msgctxt "field:akademy_configuration.discipline,discipline_precentes:"
+msgid "Disciplina antecedentes"
+msgstr "Discipline precentes"
+
+msgctxt "field:akademy_configuration.discipline.modality,name:"
+msgid "Nome"
+msgstr "Name"
+
+msgctxt "field:akademy_configuration.discipline.modality,studyplan_discipline:"
+msgid "Modalidade de frequência"
+msgstr "Frequency modality"
+
+msgctxt "field:akademy_configuration.discipline.modality,classes:"
+msgid "Modalidade de frequência"
+msgstr "Frequency modality"
+
+msgctxt "field:akademy_configuration.discipline.modality,classe_student_discipline:"
+msgid "Modalidade de frequência"
+msgstr "Frequency modality"
+
+msgctxt "field:akademy_configuration.discipline.modality,classe_teacher_discipline:"
+msgid "Modalidade de frequência"
+msgstr "Frequency modality"
+
+msgctxt "field:akademy_configuration.discipline.state,name:"
+msgid "Nome"
+msgstr "Name"
+
+msgctxt "field:akademy_configuration.discipline.state,required:"
+msgid "Obrigatório"
+msgstr "Required"
+
+msgctxt "field:akademy_configuration.discipline.state,studyplan_discipline:"
+msgid "Estado de frequência"
+msgstr "Frequency status"
+
+msgctxt "field:akademy_configuration.discipline.state,studyplan_avaliation:"
+msgid "Estado de frequência"
+msgstr "Frequency status"
+
+msgctxt "field:akademy_configuration.discipline.precedents,discipline:"
+msgid "Disciplina"
+msgstr "Discipline"
+
+msgctxt "field:akademy_configuration.discipline.precedents,studyplan_discipline:"
+msgid "Disciplina"
+msgstr "Discipline"
+
+msgctxt "field:akademy_configuration.discipline.precedents,grade:"
+msgid "Nota"
+msgstr "Grade"
+
+msgctxt "field:akademy_configuration.classe.lesson.type,name:"
+msgid "Nome"
+msgstr "Name"
+
+msgctxt "field:akademy_configuration.classe.lesson.type,discipline:"
+msgid "Disciplina"
+msgstr "Discipline"
+
+msgctxt "field:akademy_configuration.classe.lesson.type,classe_room:"
+msgid "Sala de aula"
+msgstr "Classe lesson"
+
+msgctxt "field:akademy_configuration.classe.room,code:"
+msgid "Código"
+msgstr "Code"
+
+msgctxt "field:akademy_configuration.classe.room,name:"
+msgid "Nome"
+msgstr "Name"
+
+msgctxt "field:akademy_configuration.classe.room,lesson_type:"
+msgid "Aula"
+msgstr "Lesson"
+
+msgctxt "field:akademy_configuration.classe.room,capacity:"
+msgid "Capacidade"
+msgstr "Capacity"
+
+msgctxt "field:akademy_configuration.classe.room,description:"
+msgid "Descrição"
+msgstr "Description"
+
+msgctxt "field:akademy_configuration.academic.level,code:"
+msgid "Código"
+msgstr "Code"
+
+msgctxt "field:akademy_configuration.academic.level,name:"
+msgid "Nome"
+msgstr "Name"
+
+msgctxt "field:akademy_configuration.academic.level,description:"
+msgid "Descrição"
+msgstr "Description"
+
+msgctxt "field:akademy_configuration.academic.level,area:"
+msgid "Área"
+msgstr "Area"
+
+msgctxt "field:akademy_configuration.academic.level,studyplan:"
+msgid "Plano de estudo"
+msgstr "Studyplan"
+
+msgctxt "field:akademy_configuration.academic.level,student:"
+msgid "Discente"
+msgstr "Student"
+
+msgctxt "field:akademy_configuration.area,code:"
+msgid "Código"
+msgstr "Code"
+
+msgctxt "field:akademy_configuration.area,name:"
+msgid "Nome"
+msgstr "Name"
+
+msgctxt "field:akademy_configuration.area,description:"
+msgid "Descrição"
+msgstr "Description"
+
+msgctxt "field:akademy_configuration.area,academic_level:"
+msgid "Nível académico"
+msgstr "Academic level"
+
+msgctxt "field:akademy_configuration.area,studyplan:"
+msgid "Plano de estudo"
+msgstr "Studyplan"
+
+msgctxt "field:akademy_configuration.area,course:"
+msgid "Curso"
+msgstr "Course"
+
+msgctxt "field:akademy_configuration.area,company_student:"
+msgid "Discente"
+msgstr "Student"
+
+msgctxt "field:akademy_configuration.course,code:"
+msgid "Código"
+msgstr "Code"
+
+msgctxt "field:akademy_configuration.course,name:"
+msgid "Nome"
+msgstr "Name"
+
+msgctxt "field:akademy_configuration.course,duration:"
+msgid "Duração"
+msgstr "Duration"
+
+msgctxt "field:akademy_configuration.course,description:"
+msgid "Descrição"
+msgstr "Description"
+
+msgctxt "field:akademy_configuration.course,area:"
+msgid "Área"
+msgstr "Area"
+
+msgctxt "field:akademy_configuration.course,course_classe:"
+msgid "Classe"
+msgstr "Class"
+
+msgctxt "field:akademy_configuration.course,studyplan:"
+msgid "Plano de estudo"
+msgstr "Studyplan"
+
+msgctxt "field:akademy_configuration.course,company_student:"
+msgid "Discente"
+msgstr "Student"
+
+msgctxt "field:akademy_configuration.course.classe,description:"
+msgid "Descrição"
+msgstr "Description"
+
+msgctxt "field:akademy_configuration.course.classe,course_year:"
+msgid "Ano"
+msgstr "Year"
+
+msgctxt "field:akademy_configuration.course.classe,classe:"
+msgid "Classe"
+msgstr "Class"
+
+msgctxt "field:akademy_configuration.course.classe,course:"
+msgid "Curso"
+msgstr "Course"
+
+msgctxt "field:akademy_configuration.course.classe,studyplan:"
+msgid "Studyplan"
+msgstr "Plano de estudo"
+
+msgctxt "field:akademy_configuration.metric.avaliation,name:"
+msgid "Nome"
+msgstr "Name"
+
+msgctxt "field:akademy_configuration.metric.avaliation,avaliation:"
+msgid "Avaliação"
+msgstr "Avaliation"
+
+msgctxt "field:akademy_configuration.metric.avaliation,avaliation_type:"
+msgid "Tipo de avaliação"
+msgstr "Avaliation type"
+
+msgctxt "field:akademy_configuration.metric.avaliation,studyplan_avaliation:"
+msgid "Avaliações"
+msgstr "Avaliations"
+
+msgctxt "field:akademy_configuration.avaliation,name:"
+msgid "Nome"
+msgstr "Name"
+
+msgctxt "field:akademy_configuration.avaliation,description:"
+msgid "Descrição"
+msgstr "Description"
+
+msgctxt "field:akademy_configuration.avaliation,metric_avaliation:"
+msgid "Avaliação"
+msgstr "Avaliation"
+
+msgctxt "field:akademy_configuration.avaliation.type,name:"
+msgid "Nome"
+msgstr "Name"
+
+msgctxt "field:akademy_configuration.avaliation.type,description:"
+msgid "Descrição"
+msgstr "Description"
+
+msgctxt "field:akademy_configuration.avaliation.type,metric_avaliation:"
+msgid "Tipo de avaliação"
+msgstr "Avaliation type"
+
+msgctxt "field:akademy_configuration.studyplan,code:"
+msgid "Código"
+msgstr "Code"
+
+msgctxt "field:akademy_configuration.studyplan,name:"
+msgid "Nome"
+msgstr "Name"
+
+msgctxt "field:akademy_configuration.studyplan,lective_year:"
+msgid "Ano letivo"
+msgstr "Lective year"
+
+msgctxt "field:akademy_configuration.studyplan,academic_level:"
+msgid "Nível académico"
+msgstr "Academic level"
+
+msgctxt "field:akademy_configuration.studyplan,area:"
+msgid "Área"
+msgstr "Area"
+
+msgctxt "field:akademy_configuration.studyplan,course:"
+msgid "Curso"
+msgstr "Course"
+
+msgctxt "field:akademy_configuration.studyplan,classe:"
+msgid "Classe"
+msgstr "Class"
+
+msgctxt "field:akademy_configuration.studyplan,studyplan_discipline:"
+msgid "Disciplina"
+msgstr "Discipline"
+
+msgctxt "field:akademy_configuration.studyplan,classes:"
+msgid "Turma"
+msgstr "Class"
+
+msgctxt "field:akademy_configuration.studyplan,hours_per_corse:"
+msgid "Total de horas"
+msgstr "Total of hours"
+
+msgctxt "field:akademy_configuration.studyplan.discipline,description:"
+msgid "Descrição"
+msgstr "Description"
+
+msgctxt "field:akademy_configuration.studyplan.discipline,state:"
+msgid "Estado"
+msgstr "State"
+
+msgctxt "field:akademy_configuration.studyplan.discipline,modality:"
+msgid "Modalidade"
+msgstr "Modality"
+
+msgctxt "field:akademy_configuration.studyplan.discipline,quarter:"
+msgid "Período letivo"
+msgstr "Quarter"
+
+msgctxt "field:akademy_configuration.studyplan.discipline,hours:"
+msgid "Total de horas"
+msgstr "Total hours"
+
+msgctxt "field:akademy_configuration.studyplan.discipline,flaut:"
+msgid "Total de faltas"
+msgstr "Total absences"
+
+msgctxt "field:akademy_configuration.studyplan.discipline,average:"
+msgid "Média"
+msgstr "Average"
+
+msgctxt "field:akademy_configuration.studyplan.discipline,studyplan:"
+msgid "Plano de estudo"
+msgstr "Studyplan"
+
+msgctxt "field:akademy_configuration.studyplan.discipline,discipline:"
+msgid "Disciplina"
+msgstr "Discipline"
+
+msgctxt "field:akademy_configuration.studyplan.discipline,studyplan_avaliations:"
+msgid "Avaliações"
+msgstr "Avaliations"
+
+msgctxt "field:akademy_configuration.studyplan.discipline,discipline_precedentes:"
+msgid "Disciplina precedentes"
+msgstr "Preceding discipline"
+
+msgctxt "field:akademy_configuration.studyplan.discipline,classe_student_discipline:"
+msgid "Discente Disciplina"
+msgstr "Student discipline"
+
+msgctxt "field:akademy_configuration.studyplan.discipline,classe_teacher_discipline:"
+msgid "Docente Disciplina"
+msgstr "Teacher discipline"
+
+msgctxt "field:akademy_configuration.studyplan.discipline,classe_teacher_lesson:"
+msgid "Plano de aula"
+msgstr "Lesson Plan"
+
+msgctxt "field:akademy_configuration.studyplan.avaliation,description:"
+msgid "Descrição"
+msgstr "Description"
+
+msgctxt "field:akademy_configuration.studyplan.avaliation,perct_arithmetic:"
+msgid "Aritmética"
+msgstr "Arithmetic"
+
+msgctxt "field:akademy_configuration.studyplan.avaliation,perct_weighted:"
+msgid "Ponderada"
+msgstr "Weighted"
+
+msgctxt "field:akademy_configuration.studyplan.avaliation,percent:"
+msgid "Porcentagem"
+msgstr "Percent"
+
+msgctxt "field:akademy_configuration.studyplan.avaliation,metric_avaliation:"
+msgid "Avaliação"
+msgstr "Avaliation"
+
+msgctxt "field:akademy_configuration.studyplan.avaliation,quarter:"
+msgid "Período letivo"
+msgstr "Quarter"
+
+msgctxt "field:akademy_configuration.studyplan.avaliation,studyplan_discipline:"
+msgid "Disciplina"
+msgstr "Discipline"
+
+msgctxt "field:akademy_configuration.studyplan.avaliation,classe_teacher_lesson:"
+msgid "Plano de aula"
+msgstr "Lesson Plan"
+
+msgctxt "field:akademy_configuration.studyplan.avaliation,state:"
+msgid "Estado"
+msgstr "State"
+
+msgctxt "help:akademy_classe.classes,code:"
+msgid "Código da turma."
+msgstr "Class code."
+
+msgctxt "help:akademy_classe.classes,name:"
+msgid "Nome da turma."
+msgstr "Class name."
+
+msgctxt "help:akademy_classe.classes,max_student:"
+msgid "Limite máximo de discentes por adicionar na turma."
+msgstr "Maximum limit of students for adding to the class."
+
+msgctxt "help:akademy_classe.classes,max_teacher:"
+msgid "Limite máximo de docentes por adicionar na turma."
+msgstr "Maximum limit of teacher for adding to the class."
+
+msgctxt "help:akademy_classe.classes,classe:"
+msgid "Nome da classe."
+msgstr "Class name."
+
+msgctxt "help:akademy_classe.classes,lective_year:"
+msgid "Nome do ano letivo."
+msgstr "Lective year name."
+
+msgctxt "help:akademy_classe.classe.student,state:"
+msgid "Escolha o estado de matrícula."
+msgstr "Chossen the state of matriculation."
+
+msgctxt "help:akademy_classe.classe.student,type:"
+msgid "Escolha o tipo de matrícula."
+msgstr "Chossen the type of matriculation."
+
+msgctxt "help:akademy_classe.classe.student.discipline,state:"
+msgid "Escolha o estado de matrícula."
+msgstr "Chossen the state of matriculation."
+
+msgctxt "help:akademy_classe.classe.student.discipline,modality:"
+msgid "Escolha a modalidade de frequência."
+msgstr "Chossen the frequency of modality."
+
+msgctxt "help:akademy_classe.classe.teacher,state:"
+msgid "Escolha o estado de matrícula."
+msgstr "Chossen the state of matriculation."
+
+msgctxt "help:akademy_classe.classe.teacher.discipline,state:"
+msgid "Escolha o estado de matrícula."
+msgstr "Chossen the state of matriculation."
+
+msgctxt "help:akademy_classe.classe.teacher.lesson,lesson_number:"
+msgid "Insira o número da aula ou alas.\nExemplo: 1 ou 1 e 2"
+msgstr "Inserte the number of lesson or lessons.\nExample: 1 or 1 and 2"
+
+msgctxt "help:akademy_classe.classe.teacher.lesson,lesson_type:"
+msgid "Escolha o tipo de aula."
+msgstr "Chossen the type of lesson."
+
+msgctxt "help:akademy_classe.classe.timerule,lesson_time:"
+msgid "Escolha o tempo letivo."
+msgstr "Choose the lective time."
+
+msgctxt "help:akademy_classe.classe.timerule,mon:"
+msgid "Escolha a disciplina a ser lecionada na Segunda-feira."
+msgstr "Choose the subject to be taught on Monday."
+
+msgctxt "help:akademy_classe.classe.timerule,tue:"
+msgid "Escolha a disciplina a ser lecionada na Terça-feira."
+msgstr "Choose the subject to be taught on Tuesday."
+
+msgctxt "help:akademy_classe.classe.timerule,wed:"
+msgid "Escolha a disciplina a ser lecionada na Quarta-feira."
+msgstr "Choose the subject to be taught on Wednesday."
+
+msgctxt "help:akademy_classe.classe.timerule,thu:"
+msgid "Escolha a disciplina a ser lecionada na Quinta-feira."
+msgstr "Choose the subject to be taught on Thursday."
+
+msgctxt "help:akademy_classe.classe.timerule,fri:"
+msgid "Escolha a disciplina a ser lecionada na Sexta-feira."
+msgstr "Choose the subject to be taught on Friday."
+
+msgctxt "help:akademy_classe.classe.timerule,sat:"
+msgid "Escolha a disciplina a ser lecionada no Sábado."
+msgstr "Choose the subject to be taught on Saturday."
+
+msgctxt "help:akademy_classe.classe.timerule,mon_room:"
+msgid "Escolha a sala de aula em que a disciplina vai ser lecionada na Segunda-feira."
+msgstr "Choose the classroom in which the subject will be taught in Monday."
+
+msgctxt "help:akademy_classe.classe.timerule,tue_room:"
+msgid "Escolha a sala de aula em que a disciplina vai ser lecionada na Terça-feira."
+msgstr "Choose the classroom in which the subject will be taught in Tuesday."
+
+msgctxt "help:akademy_classe.classe.timerule,wed_room:"
+msgid "Escolha a sala de aula em que a disciplina vai ser lecionada na Quarta-feira."
+msgstr "Choose the classroom in which the subject will be taught in Wednesday."
+
+msgctxt "help:akademy_classe.classe.timerule,thu_room:"
+msgid "Escolha a sala de aula em que a disciplina vai ser lecionada na Quinta-feira."
+msgstr "Choose the classroom in which the subject will be taught in Thursday."
+
+msgctxt "help:akademy_classe.classe.timerule,fri_room:"
+msgid "Escolha a sala de aula em que a disciplina vai ser lecionada na Sexta-feira."
+msgstr "Choose the classroom in which the subject will be taught in Friday."
+
+msgctxt "help:akademy_classe.classe.timerule,sat_room:"
+msgid "Escolha a sala de aula em que a disciplina vai ser lecionada no sábado."
+msgstr "Choose the classroom in which the subject will be taught in Saturday."
+
+msgctxt "help:company.student,classe:"
+msgid "Nome da classe."
+msgstr "Class name."
+
+msgctxt "help:company.student,state:"
+msgid "Escolha o estado de matrícula."
+msgstr "Choose the state of enrollment."
+
+msgctxt "help:akademy_configuration.lective.year,code:"
+msgid "Código do ano letivo.\nEx: 22/23"
+msgstr "Lective year code.\nEx: 22/23"
+
+msgctxt "help:akademy_configuration.lective.year,name:"
+msgid "Nome do ano letivo."
+msgstr "Lective year name."
+
+msgctxt "help:akademy_configuration.lective.year,start:"
+msgid "Data de início do ano letivo."
+msgstr "Lective year start date."
+
+msgctxt "help:akademy_configuration.lective.year,end:"
+msgid "Data de término do ano letivo."
+msgstr "Lective year end date."
+
+msgctxt "help:akademy_configuration.quarter,code:"
+msgid "Código do período letivo.\nEx: 1º Trimestre"
+msgstr "Quarter code.\nEx: Quarter-1"
+
+msgctxt "help:akademy_configuration.quarter,name:"
+msgid "Nome do período letivo."
+msgstr "Quarter name."
+
+msgctxt "help:akademy_configuration.quarter,start:"
+msgid "Data de início do período letivo."
+msgstr "Start date of quarter."
+
+msgctxt "help:akademy_configuration.quarter,end:"
+msgid "Data de término do período letivo."
+msgstr "End date of quarter."
+
+msgctxt "help:akademy_configuration.quarter,lective_year:"
+msgid "Nome do ano letivo."
+msgstr "Lective year name."
+
+msgctxt "help:akademy_configuration.time.course,code:"
+msgid "Código do período."
+msgstr "Period code."
+
+msgctxt "help:akademy_configuration.time.course,name:"
+msgid "Nome do período."
+msgstr "Period name."
+
+msgctxt "help:akademy_configuration.time.course,start_time:"
+msgid "Hora de início da aula."
+msgstr "Start hour lesson."
+
+msgctxt "help:akademy_configuration.time.course,code:"
+msgid "Hora de término da aula."
+msgstr "End hour lesson"
+
+msgctxt "help:akademy_configuration.classe,code:"
+msgid "Código da classe.\nEx: Classe-7"
+msgstr "Class code.\nEx: Class-7"
+
+msgctxt "help:akademy_configuration.classe,name:"
+msgid "Nome da classe."
+msgstr "Class name."
+
+msgctxt "help:akademy_configuration.classe.time.type,name:"
+msgid "Nome do tempo letivo.\nEx: 1º Tempo"
+msgstr "Lective time name.\nEx: 1º Time"
+
+msgctxt "help:akademy_configuration.matriculation.type,name:"
+msgid "Nome do tipo da matrícula.\nEx: Candidato, Transfêrido(a), Mudança de turma"
+msgstr "Type of registration name.\nEx: Candidate, Transferee, Class change"
+
+msgctxt "help:akademy_configuration.matriculation.state,name:"
+msgid "Nome do estado da matrícula.\nEx: Matrículado(a), Transfêrido(a)"
+msgstr "Status of matriculation name.\nEx: Enrolled, Transferred"
+
+msgctxt "help:akademy_configuration.matriculation.state,access:"
+msgid "A este estado é permite o acesso."
+msgstr "This status is allowed the access."
+
+msgctxt "help:akademy_configuration.discipline,code:"
+msgid "Código da disciplina."
+msgstr "Discipline code."
+
+msgctxt "help:akademy_configuration.discipline,name:"
+msgid "Nome da disciplina."
+msgstr "Discipline name."
+
+msgctxt "help:akademy_configuration.discipline,lesson_type:"
+msgid "Escolha o tempo de aula."
+msgstr "Chossen the lesson time."
+
+msgctxt "help:akademy_configuration.discipline.modality,name:"
+msgid "Nome da modalidade de frequência da disciplina.\nEx: Presencial, Virtual"
+msgstr "Frequency modality name of discipline.\nEx: Presence, Virtual"
+
+msgctxt "help:akademy_configuration.discipline.state,name:"
+msgid "Nome do estado de frequência da disciplina.\nEx: Obrigatório, Opcional"
+msgstr "Frequency discipline status name.\nEx: Required, Optional"
+
+msgctxt "help:akademy_configuration.discipline.state,required:"
+msgid "Este estado é de caracter obrigatório."
+msgstr "This status is mandatory."
+
+msgctxt "help:akademy_configuration.classe.lesson.type,name:"
+msgid "Nome do tipo de aula.\nEx: Teórica, Prática"
+msgstr "Lesson type name.\nEx: Theoretical, Practical"
+
+msgctxt "help:akademy_configuration.classe.room,code:"
+msgid "Código da sala de aula."
+msgstr "Class room code."
+
+msgctxt "help:akademy_configuration.classe.room,name:"
+msgid "Nome da sala de aula."
+msgstr "Class room name."
+
+msgctxt "help:akademy_configuration.classe.room,lesson_type:"
+msgid "Escolha o tipo de aula."
+msgstr "Choose the type of lesson."
+
+msgctxt "help:akademy_configuration.classe.room,capacity:"
+msgid "Capacidade máxima da sala de aula."
+msgstr "Maximum capacity of classe room."
+
+msgctxt "help:akademy_configuration.academic.level,code:"
+msgid "Código do nível académico."
+msgstr "Academic level code."
+
+msgctxt "help:akademy_configuration.academic.level,name:"
+msgid "Nome do nível académico."
+msgstr "Academic level name."
+
+msgctxt "help:akademy_configuration.area,code:"
+msgid "Código da área."
+msgstr "Area code."
+
+msgctxt "help:akademy_configuration.area,name:"
+msgid "Nome da área."
+msgstr "Area name."
+
+msgctxt "help:akademy_configuration.course,code:"
+msgid "Código da curso."
+msgstr "Course code."
+
+msgctxt "help:akademy_configuration.course,name:"
+msgid "Nome da curso."
+msgstr "Course name."
+
+msgctxt "help:akademy_configuration.course,duration:"
+msgid "Escolha a duração do curso em anos."
+msgstr "Choose the duration of the course in years."
+
+msgctxt "help:akademy_configuration.course.classe,course_year:"
+msgid "Escolha o ano do curso."
+msgstr "Choose the course year."
+
+msgctxt "help:akademy_configuration.metric.avaliation,name:"
+msgid "Nome da métrica que corresponde a avaliação."
+msgstr "Name of the metric that corresponds to the evaluation."
+
+msgctxt "help:akademy_configuration.avaliation,name:"
+msgid "Nome da avaliação."
+msgstr "Avaliation name."
+
+msgctxt "help:akademy_configuration.avaliation.type,name:"
+msgid "Nome do tipo de avaliação."
+msgstr "Avaliation type name."
+
+msgctxt "help:akademy_configuration.studyplan,code:"
+msgid "Código do plano de estudo."
+msgstr "Studyplan code."
+
+msgctxt "help:akademy_configuration.studyplan,name:"
+msgid "Nome do plano de estudo."
+msgstr "Studyplan name."
+
+msgctxt "help:akademy_configuration.studyplan.discipline,state:"
+msgid "Escolha o estado de frequência."
+msgstr "Choose the state of frequency."
+
+msgctxt "help:akademy_configuration.studyplan.discipline,modality:"
+msgid "Escolha a modalidade de frequência."
+msgstr "Choose the modality of frequency."
+
+msgctxt "help:akademy_configuration.studyplan.discipline,quarter:"
+msgid "Escolha o período letivo em que a disciplina será lecionada."
+msgstr "Choose the quarter in which the subject will be taught."
+
+msgctxt "help:akademy_configuration.studyplan.discipline,hours:"
+msgid "Carga horária da disciplina."
+msgstr "Course workload."
+
+msgctxt "help:akademy_configuration.studyplan.discipline,flaut:"
+msgid "Número máximo de faltas."
+msgstr "Maximum number of absences."
+
+msgctxt "help:akademy_configuration.studyplan.discipline,average:"
+msgid "Média para aprovação."
+msgstr "Average for approval."
+
+msgctxt "help:akademy_configuration.studyplan.avaliation,perct_arithmetic:"
+msgid ""
+"Calcula a média com base na operação aritmética.\nEx: Soma das avaliações, dividido "
+"pelo número de avaliações."
+msgstr ""
+"Calculates the average based on the arithmetic operation.\nEx: Sum of evaluations, "
+"divided by the number of evaluations."
+
+msgctxt "help:akademy_configuration.studyplan.avaliation,perct_weighted:"
+msgid ""
+"Calcula a média com base na operação ponderada.\nEx: Soma da multiplicação das "
+"ponderações das avaliações, dividido pela soma das ponderações."
+msgstr ""
+"Calculates the average based on the weighted operation.\nEx: Sum of the "
+"multiplication of the evaluation weights, divided by the sum of the weights."
+
+msgctxt "help:akademy_configuration.studyplan.avaliation,percent:"
+msgid "A porcentagem varia entre 1%, a 100%."
+msgstr "The percentage varies between 1% and 100%."
+
+msgctxt "help:akademy_configuration.studyplan.avaliation,metric_avaliation:"
+msgid "Nome da Avaliação."
+msgstr "Avaliation name."
+
+msgctxt "help:akademy_configuration.studyplan.avaliation,quarter:"
+msgid "Escolha o período letivo em que a avaliação será lecionada."
+msgstr "Choose the quarter in which the assessment will be taught."
+
+msgctxt "help:akademy_configuration.studyplan.avaliation,state:"
+msgid "Escolha o estado de frequência."
+msgstr "Choose the frequency state."
+
+msgctxt "error:akademy_classe.classes:"
+msgid ""
+"Não foi possível cadastrar a nova turma, por favor verificar se já existe uma turma com este "
+"nome para este ano letivo."
+msgstr ""
+"It was not possible to register the new class, please check if there is already a class with "
+"this name for this academic year."
+
+msgctxt "error:akademy_classe.classes:"
+msgid ""
+"Não foi possível adicionar o discente a turma, por favor verificar se o limite de vagas para "
+"existente na turma, para os discentes."
+msgstr ""
+"It was not possible to add the student to the class, please check if the limit of vacancies "
+"exists in the class, for students."
+
+msgctxt "error:akademy_classe.classes:"
+msgid ""
+"Não foi possível adicionar o docente na turma, por favor verificar se o limite de vagas para "
+"existente na turma, para os docentes."
+msgstr ""
+"It was not possible to add the teacher to the class, please check if the limit of vacancies "
+"exists in the class, for teachers."
+
+msgctxt "error:akademy_classe.classe.student:"
+msgid ""
+"Não foi possivél cadastrar o novo discente, por favor verificar se o discente já está "
+"matriculado nesta turma."
+msgstr ""
+"It was not possible to register the new student, please check if the student is already "
+"enrolled in this class."
+
+msgctxt "error:akademy_classe.classe.student.discipline:"
+msgid ""
+"Não foi possivél associar o discente a disciplina, por favor verificar se o mesmo já está "
+"a frequentar esta disciplina na turma."
+msgstr ""
+"It was not possible to associate the student to the subject, please check if the student is "
+"already attending this subject in this class."
+
+msgctxt "error:akademy_classe.classe.teacher:"
+msgid ""
+"Não foi possivél matricular o docente, por favor verificar se o docente já existe na turma."
+msgstr ""
+"It was not possible to matriculate the teacher, please check if the teacher is already "
+"enrolled in this class."
+
+msgctxt "error:akademy_classe.classe.teacher.discipline:"
+msgid ""
+"Não foi possivél associar o docente a disciplina, por favor verificar se o mesmo já está a "
+"lecionar esta disciplina na turma."
+msgstr ""
+"It was not possible to associate the teacher to the discipline, please check if he is already "
+"teaching this discipline in the class."
+
+msgctxt "error:akademy_classe.classe.timerule:"
+msgid ""
+"Não foi possivél definir o tempo letivo para a turma, por favor verificar se o tempo "
+"letivo já existe para este horário."
+msgstr ""
+"It was not possible to define the teaching time for the class, please check if the "
+"teaching time already exists for this schedule."
+
+msgctxt "error:akademy_classe.classe.timerule:"
+msgid ""
+"Não foi possivél definir o tempo letivo para a turma, por favor verifica a hora de "
+"entrada e saída."
+msgstr ""
+"It was not possible to define the time lective for the class, please check the houre "
+"of input and output."
+
+msgctxt "error:akademy_configuration.lective.year:"
+msgid ""
+"Não foi possível cadastrar o novo ano letivo, por favor verificar se o nome "
+"inserido já existe."
+msgstr ""
+"It was not possible to create the new lective year, please check if the name "
+"inserted already exist."
+
+msgctxt "error:akademy_configuration.lective.year:"
+msgid ""
+"Não foi possível cadastrar o novo ano letivo, por favor verificar se o código "
+"inserido já existe."
+msgstr ""
+"It was not possible to create the new lective year, please check if the code "
+"inserted already exist."
+
+msgctxt "error:akademy_configuration.lective.year:"
+msgid ""
+"Não foi possível cadastrar o novo ano letivo, por favor verificar se a data de início "
+"é menor que a data de término."
+msgstr ""
+"It was not possible to create the new lective year, please check if the start date "
+"inserted already exist."
+
+msgctxt "error:akademy_configuration.quarter:"
+msgid ""
+"Não foi possível cadastrar o novo período letivo, por favor verificar se o nome inserido "
+"já existe."
+msgstr ""
+"It was not possible to create the new quarter, please check if the name inserted "
+"already exist."
+
+msgctxt "error:akademy_configuration.quarter:"
+msgid ""
+"Não foi possível cadastrar o novo período letivo, por favor verificar se a data de início "
+"é menor que a data de término."
+msgstr ""
+"It was not possible to create the new quarter, please check if the start date "
+"is less them end date."
+
+msgctxt "error:akademy_configuration.time.course:"
+msgid ""
+"Não foi possível cadastrar o novo período letivo, por favor verificar se o nome "
+"ou o código inserido já existe."
+msgstr ""
+"It was not possible to create the new lective period, please check if the name "
+"or code inserted already exist."
+
+msgctxt "error:akademy_configuration.time.course:"
+msgid ""
+"Não foi possível cadastrar o novo período letivo, por favor verificar se a hora "
+"de entrada é menor que a hora de saída."
+msgstr ""
+"It was not possible to create the new lective period, please check if the input "
+"hour is less them output hour."
+
+msgctxt "error:akademy_configuration.classe:"
+msgid ""
+"Não foi possível cadastrar a nova classe, por favor verificar se o nome inserido "
+"já existe."
+msgstr ""
+"It was not possible to create the new class, please check if the name inserted "
+"already exist."
+
+msgctxt "error:akademy_configuration.classe:"
+msgid ""
+"Não foi possível cadastrar a nova classe, por favor verificar se o código inserido "
+"já existe."
+msgstr ""
+"It was not possible to create the new class, please check if the code inserted "
+"already exist."
+
+msgctxt "error:akademy_configuration.classe.time.type:"
+msgid ""
+"Não foi possível cadastrar o novo tempo letivo, por favor verificar se o nome "
+"inserido já existe."
+msgstr ""
+"It was not possible to create the new lective time, please check if the name "
+"inserted already exist."
+
+msgctxt "error:akademy_configuration.classe.time.type:"
+msgid ""
+"Não foi possível cadastrar o novo tipo de matrícula, por favor verificar se o "
+"nome inserido já existe."
+msgstr ""
+"It was not possible to create the new type registration, please check if the "
+"name inserted already exist."
+
+msgctxt "error:akademy_configuration.classe.time.type:"
+msgid ""
+"Não foi possível cadastrar o novo estado de matrícula, por favor verificar se "
+"o nome inserido já existe."
+msgstr ""
+"It was not possible to create the new status registration, please check if the "
+"name inserted already exist."
+
+msgctxt "error:akademy_configuration.discipline:"
+msgid ""
+"Não foi possível cadastrar a nova disciplina, por favor verificar se o nome "
+"inserido já existe."
+msgstr ""
+"It was not possible to create the new discipline, please check if the name "
+"inserted already exist."
+
+msgctxt "error:akademy_configuration.discipline.modality:"
+msgid ""
+"Não foi possível cadastrar a nova modalidade frequência da disciplina, por favor "
+"verifica se o nome inserido já existe."
+msgstr ""
+"It was not possible to register the new frequency modality, please check if the "
+"name already exist."
+
+msgctxt "error:akademy_configuration.discipline.state:"
+msgid ""
+"Não foi possível cadastrar o novo estado de frequência da disciplina, por favor "
+"verifica se o nome inserido já existe."
+msgstr ""
+"It was not possible to register the new frequency status, please check if the "
+"name already exist."
+
+msgctxt "error:akademy_configuration.discipline.precedents:"
+msgid ""
+"Não foi possível cadastrar a disciplina, por favor verificar se a disciplina "
+"inserida já existe."
+msgstr ""
+"It was not possible to register the new discipline, please check if the discipline "
+"already exist."
+
+msgctxt "error:akademy_configuration.classe.lesson.type:"
+msgid ""
+"Não foi possível cadastrar o novo tipo de aula, por favor verificar se o nome "
+"inserido já existe."
+msgstr ""
+"It was not possible to register the new lesson type, please check if the name "
+"already exist."
+
+msgctxt "error:akademy_configuration.classe.room:"
+msgid ""
+"Não foi possível cadastrar a nova sala de aula, por favor verificar se o nome "
+"inserido já existe."
+msgstr ""
+"It was not possible to register the new class room, please check if the name "
+"already exist."
+
+msgctxt "error:akademy_configuration.classe.room:"
+msgid ""
+"Não foi possível cadastrar a nova sala de aula, por favor verifica a capacidade."
+msgstr ""
+"It was not possible to register the new class room, please check if the capacity."
+
+msgctxt "error:akademy_configuration.academic.level:"
+msgid ""
+"Não foi possível cadastrar o novo nível académico, por favor verificar se o nome "
+"ou o código inserido já existe."
+msgstr ""
+"It was not possible to register the new academic level, please check if the name "
+"or code already exist."
+
+msgctxt "error:akademy_configuration.academic.level:"
+msgid ""
+"Não foi possível cadastrar a nova área, por favor verificar se o nome ou o código "
+"inserido já existe."
+msgstr ""
+"It was not possible to register the new area, please check if the name or code "
+"already exist."
+
+msgctxt "error:akademy_configuration.course:"
+msgid ""
+"Não foi possível cadastrar o novo curso, por favor verificar se o nome ou o código "
+"inserido já existe."
+msgstr ""
+"It was not possible to register the new course, please check if the name or code "
+"already exist."
+
+msgctxt "error:akademy_configuration.course:"
+msgid ""
+"Não foi possível associar a classe ao curso, por favor verificar se classe e o "
+"curso já não se encontram associados."
+msgstr ""
+"It was not possible to associate the class to course, please check if the class "
+"and course already are associate."
+
+msgctxt "error:akademy_configuration.metric.avaliation:"
+msgid ""
+"Não foi possível cadastrar a nova métrica, por favor verificar se o nome inserido já existe."
+msgstr ""
+"It was not possible to associate the class to matric, please check if the name already exist."
+
+msgctxt "error:akademy_configuration.metric.avaliation:"
+msgid ""
+"Não foi possível cadastrar a nova avaliação, por favor verificar se o nome inserido já "
+"existe para esta métrica."
+msgstr ""
+"It was not possible to associate the class to matric, please check if the name already "
+"exist for this metric."
+
+msgctxt "error:akademy_configuration.avaliation.type:"
+msgid ""
+"Não foi possível cadastrar o novo tipo de avaliação, por favor verificar se o nome "
+"inserido já existe para esta métrica."
+msgstr ""
+"It was not possible to register the new type of avaliation, please check if the name "
+"already exist for this metric."
+
+msgctxt "error:akademy_configuration.studyplan.discipline:"
+msgid ""
+"Não foi possível cadastrar a disciplina neste plano de estudo, por favor verifica a "
+"carga horária."
+msgstr ""
+"It was not possible to register the new discipline in this studyplan, please check "
+"the workload."
+
+msgctxt "error:akademy_configuration.studyplan.discipline:"
+msgid ""
+"Não foi possível cadastrar a disciplina neste plano de estudo, por favor verificar se "
+"a média de aprovação esta acima de 20 valores."
+msgstr ""
+"It was not possible to register the new discipline in this studyplan, please check if "
+"the approval average is above 20 points."
+
+msgctxt "error:akademy_configuration.studyplan.discipline:"
+msgid ""
+"Não foi possível cadastrar a nova avaliação, por favor verificar se a disciplina e o "
+"período letivo, já esixtem para está avaliação."
+msgstr ""
+"It was not possible to register the new assessment, please check if the subject and "
+"quarter are already available for this assessment."

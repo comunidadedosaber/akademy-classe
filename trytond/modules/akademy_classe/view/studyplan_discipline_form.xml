@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!-- This file is part of SAGE Education.   The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form>
+    <group id="study_plan" colspan="4" col="4">
+        <label name="studyplan"/>
+        <field name="studyplan"/>  
+        <label name="discipline"/>
+        <field name="discipline"/> 
+    </group>
+    <group id="discipline" colspan="4" col="6">
+        <label name="quarter"/>
+        <field name="quarter"/>     
+        <label name="state"/>
+        <field name="state"/>    
+        <label name="modality"/>
+        <field name="modality"/>
+    </group>   
+    <group id="criteria" colspan="4" col="6">      
+        <label name="hours"/>
+        <field name="hours"/>     
+        <label name="flaut"/>
+        <field name="flaut"/>     
+        <label name="average"/>
+        <field name="average"/> 
+    </group>   
+    <notebook colspan="4">
+        <page string="Descrição" id="description">
+            <field name="description" widget="richtext"/>
+        </page>
+        <page string="Atencedentes" id="discipline_precedentes">
+            <field name="discipline_precedentes" mode="tree,form" colspan="2"
+                view_ids="akademy_classe.discipline_precedents_view_tree,akademy_classe.discipline_precedents_view_form"/>
+        </page>
+        <page string="Avaliações" id="discipline_avaliation">
+            <field name="studyplan_avaliations" mode="tree,form" colspan="2"
+                view_ids="akademy_classe.studyplan_avaliation_view_list,akademy_classe.studyplan_avaliation_view_form"/>
+        </page>
+        <page string="Planos de Aulas" id="classe_lesson">
+            <field name="classe_teacher_lesson" mode="tree" colspan="4" 
+                view_ids="akademy_classe.classes_teacher_lesson_view_list"/>
+        </page>    
+    </notebook>
+</form>

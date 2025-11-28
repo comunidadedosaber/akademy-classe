@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- This file is part of SAGE Education.   The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<tree>            
+    <field name="classes"/>         
+    <field name="lesson_time"/>       
+    <field name="start_lesson">
+        <suffix name="start_lesson" string="Horas"/>
+    </field> 
+    <field name="end_lesson">
+        <suffix name="end_lesson" string="Horas"/>
+    </field>
+    <field name="mon"/>
+    <field name="tue"/>
+    <field name="wed"/>
+    <field name="thu"/>
+    <field name="fri"/>
+    <field name="sat"/>
+</tree>

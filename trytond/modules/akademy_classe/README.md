@@ -16,14 +16,13 @@ O seu design ***modular, escalável e seguro*** permite que seja implementado em
 O SAGE Education conta com uma comunidade crescente, comprometida e amigável que traz o melhor dos campos das ***ciências da educação, pedagogia, tecnologia educacional e ciências da computação***.
 Não importa onde no mundo você vive, somos apaixonados por manter a educação e a tecnologia educacional como um direito humano inegociável.
 Esperamos que você considere o **SAGE Education** motivador e inspirador, e estamos ansiosos para tê-lo como parte da equipe.
-
 ---
 
 ## ⚙️ Módulo Akademy Classe
 
 O **Akademy Classe (Gestão de Turmas)** é um módulo complementar responsável pela **gestão acadêmica com foco em turmas**, mantendo todas as informações organizadas e acessíveis à instituição.  
 
-Ele oferece ferramentas avançadas para o **controlo de turmas, docentes e discentes**, permitindo acompanhar o desempenho e o progresso de cada aluno de forma centralizada e eficiente.  
+Ele oferece ferramentas avançadas para o **controlo de turmas, docentes e discentes**, permitindo acompanhar o desempenho e o progresso de cada aluno de forma centralizada e eficiente.
 
 ---
 

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of SAGE Education.   The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form>
+    <label name="discipline"/>
+    <field name="discipline"/>
+    <label name="grade"/>
+    <field name="grade"/>
+    <label name="studyplan_discipline"/>
+    <field name="studyplan_discipline"/>    
+</form>

@@ -1,0 +1,503 @@
+<?xml version="1.0"?>
+<!-- This file is part of SAGE Education.   The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<trytond>
+	<data>
+                <!-- CONFIGURAÇÕES -->
+                <menuitem name="Configurações" id="akademy_config" sequence="70"
+                        icon="tryton-settings" parent="akademy_ga"/>
+                                  
+                <!-- start NÍVEIS ACADÊMICO -->
+                <record model="ir.ui.view" id="academic_level_view_form">
+                        <field name="model">akademy_configuration.academic.level</field>
+                        <field name="type">form</field>
+                        <field name="name">academiclevel_form</field>
+                </record>
+                <record model="ir.ui.view" id="academic_level_view_list">
+                        <field name="model">akademy_configuration.academic.level</field>
+                        <field name="type">tree</field>
+                        <field name="name">academiclevel_list</field>
+                </record>
+                <record model="ir.action.act_window" id="act_academiclevel">
+                        <field name="name">Níveis Acadêmicos</field>
+                        <field name="res_model">akademy_configuration.academic.level</field>
+                </record>
+                <record model="ir.action.act_window.view" id="act_academic_level_view_form">
+                        <field name="sequence" eval="4"/>
+                        <field name="view" ref="academic_level_view_form"/>
+                        <field name="act_window" ref="act_academiclevel"/>
+                </record>
+                <record model="ir.action.act_window.view" id="act_academic_level_view_list">
+                        <field name="sequence" eval="3"/>
+                        <field name="view" ref="academic_level_view_list"/>
+                        <field name="act_window" ref="act_academiclevel"/>
+                </record>
+                <menuitem name="Níveis Acadêmicos" parent="akademy_config" id="akademy_config_academiclevel" 
+                        sequence="2" action="act_academiclevel"/>
+                <!-- ÁREA -->
+                <record model="ir.ui.view" id="area_view_form">
+                        <field name="model">akademy_configuration.area</field>
+                        <field name="type">form</field>
+                        <field name="name">area_form</field>
+                </record>
+                <record model="ir.ui.view" id="area_view_list">
+                        <field name="model">akademy_configuration.area</field>
+                        <field name="type">tree</field>
+                        <field name="name">area_list</field>
+                </record>     
+                <!-- CURSO -->
+                <record model="ir.ui.view" id="course_view_form">
+                        <field name="model">akademy_configuration.course</field>
+                        <field name="type">form</field>
+                        <field name="name">course_form</field>
+                </record>
+                <record model="ir.ui.view" id="course_view_list">
+                        <field name="model">akademy_configuration.course</field>
+                        <field name="type">tree</field>
+                        <field name="name">course_list</field>
+                </record>  
+                <!-- CLASSE CURSO -->
+                <record model="ir.ui.view" id="course_classe_view_form">
+                        <field name="model">akademy_configuration.course.classe</field>
+                        <field name="type">form</field>
+                        <field name="name">course_classe_form</field>
+                </record>
+                <record model="ir.ui.view" id="course_classe_view_list">
+                        <field name="model">akademy_configuration.course.classe</field>
+                        <field name="type">tree</field>
+                        <field name="name">course_classe_list</field>
+                </record> 
+                <!-- end NÍVEIS ACADÊMICOS -->
+
+                <!-- start SALA DE AULA -->
+                <record model="ir.ui.view" id="classeroom_view_form">
+                        <field name="model">akademy_configuration.classe.room</field>
+                        <field name="type">form</field>
+                        <field name="name">classeroom_form</field>
+                </record>
+                <record model="ir.ui.view" id="classeroom_view_list">
+                        <field name="model">akademy_configuration.classe.room</field>
+                        <field name="type">tree</field>
+                        <field name="name">classeroom_list</field>
+                </record>
+                <record model="ir.action.act_window" id="act_classeroom">
+                        <field name="name">Salas de Aula</field>
+                        <field name="res_model">akademy_configuration.classe.room</field>
+                </record>
+                <record model="ir.action.act_window.view" id="act_classeroom_view_form">
+                        <field name="sequence" eval="7"/>
+                        <field name="view" ref="classeroom_view_form"/>
+                        <field name="act_window" ref="act_classeroom"/>
+                </record>
+                <record model="ir.action.act_window.view" id="act_classeroom_view_list">
+                        <field name="sequence" eval="6"/>
+                        <field name="view" ref="classeroom_view_list"/>
+                        <field name="act_window" ref="act_classeroom"/>
+                </record>
+                <menuitem name="Salas de Aula" parent="akademy_config" id="akademy_config_classeroom" 
+                        sequence="5" action="act_classeroom"/> 
+                <!-- end SALA DE AULA --> 
+
+                <!-- start DISCIPLINA -->
+                <record model="ir.ui.view" id="discipline_view_form">
+                        <field name="model">akademy_configuration.discipline</field>
+                        <field name="type">form</field>
+                        <field name="name">discipline_form</field>
+                </record>
+                <record model="ir.ui.view" id="discipline_view_list">
+                        <field name="model">akademy_configuration.discipline</field>
+                        <field name="type">tree</field>
+                        <field name="name">discipline_list</field>
+                </record>
+                <record model="ir.action.act_window" id="act_discipline">
+                        <field name="name">Disciplinas</field>
+                        <field name="res_model">akademy_configuration.discipline</field>
+                </record>
+                <record model="ir.action.act_window.view" id="act_discipline_view_form">
+                        <field name="sequence" eval="11"/>
+                        <field name="view" ref="discipline_view_form"/>
+                        <field name="act_window" ref="act_discipline"/>
+                </record>
+                <record model="ir.action.act_window.view" id="act_discipline_view_list">
+                        <field name="sequence" eval="10"/>
+                        <field name="view" ref="discipline_view_list"/>
+                        <field name="act_window" ref="act_discipline"/>
+                </record>
+                <menuitem name="Disciplinas" parent="akademy_config" id="akademy_config_discipline" 
+                        sequence="9" action="act_discipline"/>
+                <!-- end DISCIPLINA -->
+
+                <!-- sart MÉTRICA -->
+                <record model="ir.ui.view" id="metric_view_form">
+                        <field name="model">akademy_configuration.metric.avaliation</field>
+                        <field name="type">form</field>
+                        <field name="name">metric_form</field>
+                </record>
+                <record model="ir.ui.view" id="metric_view_list">
+                        <field name="model">akademy_configuration.metric.avaliation</field>
+                        <field name="type">tree</field>
+                        <field name="name">metric_list</field>
+                </record>        
+                <record model="ir.action.act_window" id="act_metric">
+                        <field name="name">Métricas</field>
+                        <field name="res_model">akademy_configuration.metric.avaliation</field>
+                </record>
+                <record model="ir.action.act_window.view" id="act_metric_view_form">
+                        <field name="sequence" eval="15"/>
+                        <field name="view" ref="metric_view_form"/>
+                        <field name="act_window" ref="act_metric"/>
+                </record>
+                <record model="ir.action.act_window.view" id="act_metric_view_list">
+                        <field name="sequence" eval="14"/>
+                        <field name="view" ref="metric_view_list"/>
+                        <field name="act_window" ref="act_metric"/>
+                </record>
+                <menuitem name="Métricas" parent="akademy_config" id="akademy_config_metric" 
+                        sequence="13" action="act_metric"/>
+                <!-- AVALIAÇÃO -->
+                <record model="ir.ui.view" id="avaliation_view_form">
+                        <field name="model">akademy_configuration.avaliation</field>
+                        <field name="type">form</field>
+                        <field name="name">avaliation_form</field>
+                </record>
+                <record model="ir.ui.view" id="avaliation_view_tree">
+                        <field name="model">akademy_configuration.avaliation</field>
+                        <field name="type">tree</field>
+                        <field name="name">avaliation_list</field>
+                </record>
+                <!-- TIPO AVALIAÇÃO -->
+                <record model="ir.ui.view" id="avaliation_type_view_form">
+                        <field name="model">akademy_configuration.avaliation.type</field>
+                        <field name="type">form</field>
+                        <field name="name">avaliation_type_form</field>
+                </record>
+                <record model="ir.ui.view" id="avaliation_type_view_tree">
+                        <field name="model">akademy_configuration.avaliation.type</field>
+                        <field name="type">tree</field>
+                        <field name="name">avaliation_type_list</field>
+                </record>
+                <!-- end MÉTRICA -->
+
+                <!-- start LECTIVE YEAR -->
+                <record model="ir.ui.view" id="lective_year_view_form">
+                        <field name="model">akademy_configuration.lective.year</field>
+                        <field name="type">form</field>
+                        <field name="name">lective_year_form</field>
+                </record>
+                <record model="ir.ui.view" id="lective_year_view_list">
+                        <field name="model">akademy_configuration.lective.year</field>
+                        <field name="type">tree</field>
+                        <field name="name">lective_year_list</field>
+                </record>
+                <record model="ir.action.act_window" id="act_lective_year">
+                        <field name="name">Anos letivos</field>
+                        <field name="res_model">akademy_configuration.lective.year</field>
+                </record>
+                <record model="ir.action.act_window.view" id="act_lective_year_view_form">
+                        <field name="sequence" eval="25"/>
+                        <field name="view" ref="lective_year_view_form"/>
+                        <field name="act_window" ref="act_lective_year"/>
+                </record>
+                <record model="ir.action.act_window.view" id="act_lective_year_view_list">
+                        <field name="sequence" eval="24"/>
+                        <field name="view" ref="lective_year_view_list"/>
+                        <field name="act_window" ref="act_lective_year"/>
+                </record>
+                <menuitem name="Anos letivos" parent="akademy_config" id="akademy_config_lective_year" 
+                        sequence="23" action="act_lective_year"/>  
+                <!-- TRIMESTRE -->
+                <record model="ir.ui.view" id="quarter_view_form">
+                        <field name="model">akademy_configuration.quarter</field>
+                        <field name="type">form</field>
+                        <field name="name">quarter_form</field>
+                </record>
+                <record model="ir.ui.view" id="quarter_view_list">
+                        <field name="model">akademy_configuration.quarter</field>
+                        <field name="type">tree</field>
+                        <field name="name">quarter_list</field>
+                </record>                 
+                <!-- end LECTIVE YEAR -->
+
+                <!-- start PLANOS DE ESTUDO -->
+                <record model="ir.ui.view" id="studyplan_view_form">
+                        <field name="model">akademy_configuration.studyplan</field>
+                        <field name="type">form</field>
+                        <field name="name">studyplan_form</field>
+                </record>
+                <record model="ir.ui.view" id="studyplan_view_list">
+                        <field name="model">akademy_configuration.studyplan</field>
+                        <field name="type">tree</field>
+                        <field name="name">studyplan_list</field>
+                </record>                                               
+                <!-- PLANO DE ESTUDO DISCIPLINA -->
+                <record model="ir.ui.view" id="studyplan_discipline_view_form">
+                        <field name="model">akademy_configuration.studyplan.discipline</field>
+                        <field name="type">form</field>
+                        <field name="name">studyplan_discipline_form</field>
+                </record>
+                <record model="ir.ui.view" id="studyplan_discipline_view_list">
+                        <field name="model">akademy_configuration.studyplan.discipline</field>
+                        <field name="type">tree</field>
+                        <field name="name">studyplan_discipline_list</field>
+                </record>                        
+                <!-- DISCIPLINA PRECEDENTES -->
+                <record model="ir.ui.view" id="discipline_precedents_view_form">
+                        <field name="model">akademy_configuration.discipline.precedents</field>
+                        <field name="type">form</field>
+                        <field name="name">discipline_precedents_form</field>
+                </record>
+                <record model="ir.ui.view" id="discipline_precedents_view_tree">
+                        <field name="model">akademy_configuration.discipline.precedents</field>
+                        <field name="type">tree</field>
+                        <field name="name">discipline_precedents_list</field>
+                </record>
+                <!-- PLANO DE ESTUDO DISCIPLINA AVALIAÇÕES -->
+                <record model="ir.ui.view" id="studyplan_avaliation_view_form">
+                        <field name="model">akademy_configuration.studyplan.avaliation</field>
+                        <field name="type">form</field>
+                        <field name="name">studyplan_avaliation_form</field>
+                </record>
+                <record model="ir.ui.view" id="studyplan_avaliation_view_list">
+                        <field name="model">akademy_configuration.studyplan.avaliation</field>
+                        <field name="type">tree</field>
+                        <field name="name">studyplan_avaliation_list</field>
+                </record>                        
+                <!-- end PLANOS DE ESTUDO -->
+
+                <menuitem name="Pré-Configurados" id="akademy_config_pre" sequence="95"
+                        parent="akademy_config"/>                          
+
+                <!-- start CLASSE -->
+                <record model="ir.ui.view" id="classe_view_form">
+                        <field name="model">akademy_configuration.classe</field>
+                        <field name="type">form</field>
+                        <field name="name">classe_form</field>
+                </record>
+                <record model="ir.ui.view" id="classe_view_list">
+                        <field name="model">akademy_configuration.classe</field>
+                        <field name="type">tree</field>
+                        <field name="name">classe_list</field>
+                </record>
+                <record model="ir.action.act_window" id="act_classe">
+                        <field name="name">Classes</field>
+                        <field name="res_model">akademy_configuration.classe</field>
+                </record>
+                <record model="ir.action.act_window.view" id="act_classe_view_form">
+                <field name="sequence" eval="12"/>
+                        <field name="view" ref="classe_view_form"/>
+                        <field name="act_window" ref="act_classe"/>
+                </record>
+                <record model="ir.action.act_window.view" id="act_classe_view_list">
+                        <field name="sequence" eval="11"/>
+                        <field name="view" ref="classe_view_list"/>
+                        <field name="act_window" ref="act_classe"/>
+                </record>
+                <menuitem name="Classes" parent="akademy_config_pre" id="akademy_config_classe" 
+                        sequence="10" action="act_classe"/>  
+                <!-- start  -->
+                
+                <!-- start PERÍODO -->
+                <record model="ir.ui.view" id="time_course_view_form">
+                        <field name="model">akademy_configuration.time.course</field>
+                        <field name="type">form</field>
+                        <field name="name">time_course_form</field>
+                </record>
+                <record model="ir.ui.view" id="time_course_view_list">
+                        <field name="model">akademy_configuration.time.course</field>
+                        <field name="type">tree</field>
+                        <field name="name">time_course_list</field>
+                </record>
+                <record model="ir.action.act_window" id="act_time_course">
+                        <field name="name">Períodos</field>
+                        <field name="res_model">akademy_configuration.time.course</field>
+                </record>
+                <record model="ir.action.act_window.view" id="act_time_course_view_form">
+                        <field name="sequence" eval="16"/>
+                        <field name="view" ref="time_course_view_form"/>
+                        <field name="act_window" ref="act_time_course"/>
+                </record>
+                <record model="ir.action.act_window.view" id="act_time_course_view_list">
+                        <field name="sequence" eval="15"/>
+                        <field name="view" ref="time_course_view_list"/>
+                        <field name="act_window" ref="act_time_course"/>
+                </record>
+                <menuitem name="Períodos" parent="akademy_config_pre" id="akademy_config_time_course" 
+                        sequence="14" action="act_time_course"/>
+                <!-- end PERÍODO -->
+
+                <!-- start LESSON TYPE -->
+                <record model="ir.ui.view" id="classe_lesson_type_view_form">
+                        <field name="model">akademy_configuration.classe.lesson.type</field>
+                        <field name="type">form</field>
+                        <field name="name">classe_lesson_type_form</field>
+                </record>
+                <record model="ir.ui.view" id="classe_lesson_type_view_list">
+                        <field name="model">akademy_configuration.classe.lesson.type</field>
+                        <field name="type">tree</field>
+                        <field name="name">classe_lesson_type_list</field>
+                </record>
+                <record model="ir.action.act_window" id="act_classe_lesson_type">
+                        <field name="name">Tipo de aula</field>
+                        <field name="res_model">akademy_configuration.classe.lesson.type</field>
+                </record>
+                <record model="ir.action.act_window.view" id="act_classe_lesson_type_view_form">
+                        <field name="sequence" eval="20"/>
+                        <field name="view" ref="classe_lesson_type_view_form"/>
+                        <field name="act_window" ref="act_classe_lesson_type"/>
+                </record>
+                <record model="ir.action.act_window.view" id="act_classe_lesson_type_view_list">
+                        <field name="sequence" eval="19"/>
+                        <field name="view" ref="classe_lesson_type_view_list"/>
+                        <field name="act_window" ref="act_classe_lesson_type"/>
+                </record>
+                <menuitem name="Tipos de aula" parent="akademy_config_pre" id="akademy_config_classe_lesson_type" 
+                        sequence="18" action="act_classe_lesson_type"/>  
+                <!-- end LESSON TYPE -->
+                                
+                <!-- start CLASSE TIME -->
+                <record model="ir.ui.view" id="classe_time_type_view_form">
+                        <field name="model">akademy_configuration.classe.time.type</field>
+                        <field name="type">form</field>
+                        <field name="name">classe_time_type_form</field>
+                </record>
+                <record model="ir.ui.view" id="classe_time_type_view_list">
+                        <field name="model">akademy_configuration.classe.time.type</field>
+                        <field name="type">tree</field>
+                        <field name="name">classe_time_type_list</field>
+                </record>
+                <record model="ir.action.act_window" id="act_classe_time_type">
+                        <field name="name">Tempos letivo</field>
+                        <field name="res_model">akademy_configuration.classe.time.type</field>
+                </record>
+                <record model="ir.action.act_window.view" id="act_classe_time_type_view_form">
+                        <field name="sequence" eval="24"/>
+                        <field name="view" ref="classe_time_type_view_form"/>
+                        <field name="act_window" ref="act_classe_time_type"/>
+                </record>
+                <record model="ir.action.act_window.view" id="act_classe_time_type_view_list">
+                        <field name="sequence" eval="23"/>
+                        <field name="view" ref="classe_time_type_view_list"/>
+                        <field name="act_window" ref="act_classe_time_type"/>
+                </record>
+                <menuitem name="Tempos letivo" parent="akademy_config_pre" id="akademy_config_classe_time_type" 
+                        sequence="22" action="act_classe_time_type"/>  
+                <!-- end CLASSE TIME -->   
+
+                <!-- start MATRICULATION TYPE -->
+                <record model="ir.ui.view" id="matriculation_type_view_form">
+                        <field name="model">akademy_configuration.matriculation.type</field>
+                        <field name="type">form</field>
+                        <field name="name">matriculation_type_form</field>
+                </record>
+                <record model="ir.ui.view" id="matriculation_type_view_list">
+                        <field name="model">akademy_configuration.matriculation.type</field>
+                        <field name="type">tree</field>
+                        <field name="name">matriculation_type_list</field>
+                </record>
+                <record model="ir.action.act_window" id="act_matriculation_type">
+                        <field name="name">Tipos de matrícula</field>
+                        <field name="res_model">akademy_configuration.matriculation.type</field>
+                </record>
+                <record model="ir.action.act_window.view" id="act_matriculation_type_view_form">
+                        <field name="sequence" eval="28"/>
+                        <field name="view" ref="matriculation_type_view_form"/>
+                        <field name="act_window" ref="act_matriculation_type"/>
+                </record>
+                <record model="ir.action.act_window.view" id="act_matriculation_type_view_list">
+                        <field name="sequence" eval="27"/>
+                        <field name="view" ref="matriculation_type_view_list"/>
+                        <field name="act_window" ref="act_matriculation_type"/>
+                </record>
+                <menuitem name="Tipos de matrícula" parent="akademy_config_pre" id="akademy_config_matriculation_type" 
+                        sequence="26" action="act_matriculation_type"/>  
+                <!-- end MATRICULATION TYPE -->
+
+                <!-- start DISCIPLINE STATE -->
+                <record model="ir.ui.view" id="discipline_state_view_form">
+                        <field name="model">akademy_configuration.discipline.state</field>
+                        <field name="type">form</field>
+                        <field name="name">discipline_state_form</field>
+                </record>
+                <record model="ir.ui.view" id="discipline_state_view_list">
+                        <field name="model">akademy_configuration.discipline.state</field>
+                        <field name="type">tree</field>
+                        <field name="name">discipline_state_list</field>
+                </record>
+                <record model="ir.action.act_window" id="act_discipline_state">
+                        <field name="name">Estados da disciplina</field>
+                        <field name="res_model">akademy_configuration.discipline.state</field>
+                </record>
+                <record model="ir.action.act_window.view" id="act_discipline_state_view_form">
+                        <field name="sequence" eval="32"/>
+                        <field name="view" ref="discipline_state_view_form"/>
+                        <field name="act_window" ref="act_discipline_state"/>
+                </record>
+                <record model="ir.action.act_window.view" id="act_discipline_state_view_list">
+                        <field name="sequence" eval="31"/>
+                        <field name="view" ref="discipline_state_view_list"/>
+                        <field name="act_window" ref="act_discipline_state"/>
+                </record>
+                <menuitem name="Estados da disciplina" parent="akademy_config_pre" id="akademy_config_discipline_state" 
+                        sequence="30" action="act_discipline_state"/>  
+                <!-- end DISCIPLINE STATE -->                           
+
+                <!-- start MATRICULATION STATE -->
+                <record model="ir.ui.view" id="matriculation_state_view_form">
+                        <field name="model">akademy_configuration.matriculation.state</field>
+                        <field name="type">form</field>
+                        <field name="name">matriculation_state_form</field>
+                </record>
+                <record model="ir.ui.view" id="matriculation_state_view_list">
+                        <field name="model">akademy_configuration.matriculation.state</field>
+                        <field name="type">tree</field>
+                        <field name="name">matriculation_state_list</field>
+                </record>
+                <record model="ir.action.act_window" id="act_matriculation_state">
+                        <field name="name">Estados da matrícula</field>
+                        <field name="res_model">akademy_configuration.matriculation.state</field>
+                </record>
+                <record model="ir.action.act_window.view" id="act_matriculation_state_view_form">
+                        <field name="sequence" eval="36"/>
+                        <field name="view" ref="matriculation_state_view_form"/>
+                        <field name="act_window" ref="act_matriculation_state"/>
+                </record>
+                <record model="ir.action.act_window.view" id="act_matriculation_state_view_list">
+                        <field name="sequence" eval="35"/>
+                        <field name="view" ref="matriculation_state_view_list"/>
+                        <field name="act_window" ref="act_matriculation_state"/>
+                </record>
+                <menuitem name="Estados da matrícula" parent="akademy_config_pre" id="akademy_config_matriculation_state" 
+                        sequence="34" action="act_matriculation_state"/>  
+                <!-- end MATRICULATION STATE -->
+                
+                <!-- start DISCIPLINE MODALITY -->
+                <record model="ir.ui.view" id="discipline_modality_view_form">
+                        <field name="model">akademy_configuration.discipline.modality</field>
+                        <field name="type">form</field>
+                        <field name="name">discipline_modality_form</field>
+                </record>
+                <record model="ir.ui.view" id="discipline_modality_view_list">
+                        <field name="model">akademy_configuration.discipline.modality</field>
+                        <field name="type">tree</field>
+                        <field name="name">discipline_modality_list</field>
+                </record>
+                <record model="ir.action.act_window" id="act_discipline_modality">
+                        <field name="name">Modalidades da disciplina</field>
+                        <field name="res_model">akademy_configuration.discipline.modality</field>
+                </record>
+                <record model="ir.action.act_window.view" id="act_discipline_modality_view_form">
+                        <field name="sequence" eval="40"/>
+                        <field name="view" ref="discipline_modality_view_form"/>
+                        <field name="act_window" ref="act_discipline_modality"/>
+                </record>
+                <record model="ir.action.act_window.view" id="act_discipline_modality_view_list">
+                        <field name="sequence" eval="39"/>
+                        <field name="view" ref="discipline_modality_view_list"/>
+                        <field name="act_window" ref="act_discipline_modality"/>
+                </record>
+                <menuitem name="Modalidades da disciplina" parent="akademy_config_pre" id="akademy_config_discipline_modality" 
+                        sequence="38" action="act_discipline_modality"/>  
+                <!-- end DISCIPLINE MODALITY -->                
+        </data>
+</trytond>

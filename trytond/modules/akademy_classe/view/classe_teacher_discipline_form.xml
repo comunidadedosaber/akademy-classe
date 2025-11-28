@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- This file is part of SAGE Education.   The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form> 
+    <group id="teacher_discipline" colspan="4" col="4">
+        <label name="studyplan_discipline"/> 
+        <field name="studyplan_discipline"/>
+        <label name="state"/>
+        <field name="state"/> 
+        <label name="modality"/>
+        <field name="modality"/> 
+        <label name="classe_teacher"/> 
+        <field name="classe_teacher"/> 
+        <!--- <label name="classes" invisible="1"/> -->
+        <field name="classes" invisible="1"/>  
+    </group>
+</form>

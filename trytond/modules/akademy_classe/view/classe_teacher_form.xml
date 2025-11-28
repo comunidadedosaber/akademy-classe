@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- This file is part of SAGE Education.   The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form>
+    <group id="teacher" colspan="4" col="4">    
+        <label name="employee"/>
+        <field name="employee"/> 
+        <label name="state"/>
+        <field name="state"/>       
+        <label name="classes"/>
+        <field name="classes"/> 
+    </group>   
+    <notebook colspan="4">
+        <page string="Descrição" id="description">
+            <field name="description" widget="richtext"/>
+        </page>
+        <page string="Disciplinas" id="teacher_discipline">
+            <field name="classe_teacher_discipline" mode="tree,form" colspan="4" 
+                view_ids="akademy_classe.classe_teacher_discipline_view_tree,akademy_classe.classe_teacher_discipline_view_form"/>
+        </page>
+        <page string="Presenças" id="classe_teacher_presence">
+            <field name="classe_teacher_presence" mode="tree,form" colspan="4" 
+                view_ids="akademy_classe.classe_teacher_presence_view_tree,akademy_classe.classe_teacher_presence_view_form"/>
+        </page>
+    </notebook>  
+</form>

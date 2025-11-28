@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- This file is part of SAGE Education.   The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form>
+    <group id="metric" colspan="4" col="6"> 
+        <label name="metric_avaliation"/>
+        <field name="metric_avaliation"/>
+        <label name="quarter"/>
+        <field name="quarter"/>  
+        <label name="state"/>
+        <field name="state"/> 
+    </group>
+    <group id="avaliation_operation" colspan="4" col="6">
+        <label name="perct_arithmetic"/>
+        <field name="perct_arithmetic"/>
+        <label name="perct_weighted"/>
+        <field name="perct_weighted"/>
+        <label name="percent"/>
+        <field name="percent"/>
+    </group>       
+    <notebook colspan="4">
+        <page string="Descrição" id="description">
+            <field name="description" widget="richtext"/>
+        </page>
+    </notebook>   
+</form>

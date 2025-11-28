@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!-- This file is part of SAGE Education.   The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form>  
+    <group id="classe" colspan="4" col="4">    
+        <label name="name"/>
+        <field name="name"/>  
+        <label name="code"/>
+        <field name="code"/>  
+    </group>  
+    <group id="classe_info" colspan="4" col="4">            
+        <label name="lective_year"/>
+        <field name="lective_year"/>
+        <label name="classe"/>
+        <field name="classe"/>
+        <label name="time_course"/>
+        <field name="time_course"/>  
+        <label name="modality"/>    
+        <field name="modality"/> 
+        <label name="studyplan"/>
+        <field name="studyplan"/>  
+    </group>
+    <group id="classe_criteria" colspan="4" col="4"> 
+        <label name="max_student"/>  
+        <field name="max_student"/>    
+        <label name="max_teacher"/>    
+        <field name="max_teacher"/>
+    </group>     
+    <notebook colspan="4">
+        <page string="Discentes" id="classe_student">
+            <field name="classe_student" mode="tree,form" colspan="4" 
+                view_ids="akademy_classe.classe_student_view_list,akademy_classe.classe_student_view_form"/>
+        </page>
+        <page string="Docentes" id="classe_teacher">
+            <field name="classe_teacher" mode="tree,form" colspan="4" 
+                view_ids="akademy_classe.classe_teacher_view_list,akademy_classe.classe_teacher_view_form"/>
+        </page>
+        <page string="Horários" id="classe_timerule">
+            <field name="classe_timerule" mode="tree,form" colspan="4" 
+                view_ids="akademy_classe.classe_timerule_view_list,akademy_classe.classe_timerule_view_form"/>
+        </page>
+        <page string="Planos de Aulas" id="classe_lesson">
+            <field name="classe_teacher_lesson" mode="tree,form" colspan="4" 
+                view_ids="akademy_classe.classes_teacher_lesson_view_list,akademy_classe.classes_teacher_lesson_view_form"/>
+        </page>
+    </notebook>
+</form>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- This file is part of SAGE Education.   The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form> 
+    <group id="lective_year" colspan="4" col="4">    
+        <label name="name"/>
+        <field name="name"/>  
+        <label name="code"/>
+        <field name="code"/>     
+        <label name="start"/>
+        <field name="start"/>
+        <label name="end"/>
+        <field name="end"/>
+    </group>   
+    <notebook colspan="4">
+        <page string="Descrição" id="description">
+            <field name="description" widget="richtext"/>
+        </page>
+        <page string="Períodos letivos" id="quarter">
+            <field name="quarter" mode="tree,from" colspan="4"
+                view_ids="akademy_classe.quarter_view_list,akademy_classe.quarter_view_form"/>
+        </page>
+        <page string="Planos de Estudos" id="studyplan">
+            <field name="studyplan" mode="tree,from" colspan="4"
+                view_ids="akademy_classe.studyplan_view_list,akademy_classe.studyplan_view_form"/>
+        </page>
+        <page string="Turmas" id="classes">
+            <field name="classes" mode="tree,from" colspan="4"
+                view_ids="akademy_classe.classes_view_list,akademy_classe.classes_view_form"/>
+        </page>
+    </notebook>
+</form>

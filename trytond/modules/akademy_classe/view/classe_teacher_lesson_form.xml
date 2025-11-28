@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- This file is part of SAGE Education.   The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form>
+    <group id="teacher_classe" colspan="4" col="4"> 
+        <label name="classe_teacher"/>
+        <field name="classe_teacher"/>
+        <label name="classes"/>
+        <field name="classes"/>  
+        <label name="studyplan_discipline"/>
+        <field name="studyplan_discipline"/>
+        <label name="classe_timerule"/>
+        <field name="classe_timerule"/>        
+        <label name="lesson_date"/>
+        <field name="lesson_date"/>   
+    </group>  
+    <group id="summary" colspan="4" col="6">
+        <label name="unidate"/>
+        <field name="unidate"/>
+        <label name="lesson_type"/>
+        <field name="lesson_type"/>
+        <label name="lesson_number"/>
+        <field name="lesson_number"/>
+    </group>       
+    <group id="description" colspan="4" col="2">
+        <separator string="Objectivos" id="summary" colspan="2"/>
+        <field name="objective" widget="richtext"/>        
+        <separator string="Sumário" id="summary" colspan="2"/>
+        <field name="summary" widget="richtext"/>
+    </group> 
+</form>

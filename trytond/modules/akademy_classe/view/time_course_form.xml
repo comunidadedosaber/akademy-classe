@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- This file is part of SAGE Education.   The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form> 
+    <group id="time-course" colspan="4" col="4">    
+        <label name="name"/>
+        <field name="name"/>  
+        <label name="code"/>
+        <field name="code"/> 
+        <label name="start_time"/>
+        <field name="start_time"/>
+        <label name="end_time"/>
+        <field name="end_time"/>
+    </group> 
+    <notebook colspan="4">
+        <page string="Descrição" id="description">
+            <field name="description" widget="richtext"/>
+        </page>
+    </notebook>  
+</form>

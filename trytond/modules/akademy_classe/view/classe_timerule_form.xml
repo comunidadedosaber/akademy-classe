@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!-- This file is part of SAGE Education.   The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form>     
+    <group id="timerule" colspan="4" col="6">           
+        <label name="lesson_time"/>
+        <field name="lesson_time"/>         
+        <label name="start_lesson"/>
+        <field name="start_lesson"/> 
+        <label name="end_lesson"/>
+        <field name="end_lesson"/>      
+        <label name="classes"/>
+        <field name="classes"/> 
+    </group> 
+    <group id="timerule_description" colspan="4" col="4">    
+        <label name="mon"/>
+        <field name="mon"/>
+        <label name="mon_room"/>
+        <field name="mon_room"/>
+        <label name="tue"/>
+        <field name="tue"/>
+        <label name="tue_room"/>
+        <field name="tue_room"/>
+        <label name="wed"/>
+        <field name="wed"/>
+        <label name="wed_room"/>
+        <field name="wed_room"/>
+        <label name="thu"/>
+        <field name="thu"/>
+        <label name="thu_room"/>
+        <field name="thu_room"/>
+        <label name="fri"/>
+        <field name="fri"/>
+        <label name="fri_room"/>
+        <field name="fri_room"/>
+        <label name="sat"/>
+        <field name="sat"/>
+        <label name="sat_room"/>
+        <field name="sat_room"/>
+    </group>     
+</form>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- This file is part of SAGE Education.   The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<tree>       
+    <field name="code"/>        
+    <field name="name"/> 
+    <field name="lective_year"/>
+    <field name="classe"/>
+    <field name="time_course"/>   
+    <field name="modality"/>    
+    <field name="max_student"/>    
+    <field name="max_teacher"/>
+</tree>

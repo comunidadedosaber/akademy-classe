@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<!-- This file is part of SAGE Education.   The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<tryton>
+    <data grouped="1">
+        <record model="akademy_configuration.discipline.state" id="disc_state_required">
+            <field name="name">Obrigatório</field>
+            <field name="required">1</field>
+        </record>
+        <record model="akademy_configuration.discipline.state" id="disc_state_opcional">
+            <field name="name">Opcional</field>
+            <field name="required">0</field>
+        </record>
+    </data>
+
+    <data grouped="1">
+        <record model="akademy_configuration.discipline.modality" id="disc_modality_presencial">
+            <field name="name">Presencial</field>
+        </record>
+        <record model="akademy_configuration.discipline.modality" id="disc_modality_virtual">
+            <field name="name">Virtual</field>
+        </record>
+        <record model="akademy_configuration.discipline.modality" id="disc_modality_full">
+            <field name="name">Todas</field>
+        </record>
+    </data>
+
+    <data grouped="1">
+        <record model="akademy_configuration.matriculation.state" id="matriculation_matriculate">
+            <field name="name">Matrículado(a)</field>
+            <field name="access">1</field>
+        </record>
+        <record model="akademy_configuration.matriculation.state" id="matriculation_aguardando">
+            <field name="name">Aguardando</field>
+            <field name="access">0</field>
+        </record>
+        <record model="akademy_configuration.matriculation.state" id="matriculation_suspence">
+            <field name="name">Suspenso(a)</field>
+            <field name="access">0</field>
+        </record>
+        <record model="akademy_configuration.matriculation.state" id="matriculation_anulada">
+            <field name="name">Anulada</field>
+            <field name="access">0</field>
+        </record>
+        <record model="akademy_configuration.matriculation.state" id="matriculation_state_transfer">
+            <field name="name">Transfêrido(a)</field>
+            <field name="access">0</field>
+        </record>
+        <record model="akademy_configuration.matriculation.state" id="matriculation_state_reprovad">
+            <field name="name">Reprovado(a)</field>
+            <field name="access">1</field>
+        </record>
+        <record model="akademy_configuration.matriculation.state" id="matriculation_state_aprovad">
+            <field name="name">Aprovado(a)</field>
+            <field name="access">1</field>
+        </record>
+        <record model="akademy_configuration.matriculation.state" id="matriculation_state_watting">
+            <field name="name">Espera</field>
+            <field name="access">1</field>
+        </record>
+        <record model="akademy_configuration.matriculation.state" id="matriculation_state_change">
+            <field name="name">Mudança de matrícula</field>
+            <field name="access">1</field>
+        </record>
+    </data>
+
+    <data grouped="1">
+        <record model="akademy_configuration.matriculation.type" id="matriculation_camdidate">
+            <field name="name">Candidato(a)</field>
+        </record>
+        <record model="akademy_configuration.matriculation.type" id="matriculation_type_transfer">
+            <field name="name">Transfêrido(a)</field>
+        </record>
+        <record model="akademy_configuration.matriculation.type" id="matriculation_type_repete">
+            <field name="name">Repetente</field>
+        </record>
+        <record model="akademy_configuration.matriculation.type" id="matriculation_type_transition">
+            <field name="name">Transição de classe</field>
+        </record>
+        <!--
+        <record model="akademy_configuration.matriculation.type" id="matriculation_type_change">
+            <field name="name">Mudança de matrícula</field>
+        </record>
+        -->
+        <record model="akademy_configuration.matriculation.type" id="matriculation_type_change_time_course">
+            <field name="name">Mudança de periodo</field>
+        </record>
+        <record model="akademy_configuration.matriculation.type" id="matriculation_type_change_classes">
+            <field name="name">Mudança de turma</field>
+        </record>
+        <record model="akademy_configuration.matriculation.type" id="matriculation_type_change_course">
+            <field name="name">Mudança de curso</field>
+        </record>
+        <record model="akademy_configuration.matriculation.type" id="matriculation_type_change_area">
+            <field name="name">Mudança de área</field>
+        </record>
+    </data>
+
+    <data grouped="1">
+        <record model="akademy_configuration.classe.time.type" id="classes_time_type1">
+            <field name="name">1º Tempo</field>
+        </record>
+        <record model="akademy_configuration.classe.time.type" id="classes_time_type2">
+            <field name="name">2º Tempo</field>
+        </record>
+        <record model="akademy_configuration.classe.time.type" id="classes_time_type3">
+            <field name="name">3º Tempo</field>
+        </record>
+        <record model="akademy_configuration.classe.time.type" id="classes_time_type4">
+            <field name="name">4º Tempo</field>
+        </record>
+        <record model="akademy_configuration.classe.time.type" id="classes_time_type5">
+            <field name="name">5º Tempo</field>
+        </record>
+        <record model="akademy_configuration.classe.time.type" id="classes_time_type6">
+            <field name="name">6º Tempo</field>
+        </record>
+        <record model="akademy_configuration.classe.time.type" id="classes_time_type7">
+            <field name="name">7º Tempo</field>
+        </record>
+    </data>
+
+    <data grouped="1">
+        <record model="akademy_configuration.classe.lesson.type" id="classes_lesson_type_toerc">
+            <field name="name">Teórica</field>
+        </record>
+        <record model="akademy_configuration.classe.lesson.type" id="classes_lesson_type_pratic">
+            <field name="name">Prática</field>
+        </record>
+        <record model="akademy_configuration.classe.lesson.type" id="classes_lesson_type_torecpratic">
+            <field name="name">Teórica/Prática</field>
+        </record>
+        <record model="akademy_configuration.classe.lesson.type" id="classes_lesson_type_auditory">
+            <field name="name">Auditórios</field>
+        </record>
+        <record model="akademy_configuration.classe.lesson.type" id="classes_lesson_type_anphiteat">
+            <field name="name">Anfiteatros</field>
+        </record>
+        <record model="akademy_configuration.classe.lesson.type" id="classes_lesson_type_laboratory">
+            <field name="name">Laboratórios</field>
+        </record>
+        <record model="akademy_configuration.classe.lesson.type" id="classes_lesson_type_ophicine">
+            <field name="name">Oficinas</field>
+        </record>
+        <record model="akademy_configuration.classe.lesson.type" id="classes_lesson_type_sport_square">
+            <field name="name">Áreas de Esporte</field>
+        </record>
+    </data>
+    
+    <data grouped="1">
+        <record model="akademy_configuration.avaliation.type" id="avaliation_type_toerc">
+            <field name="name">Teórica/Oral</field>
+        </record>
+        <record model="akademy_configuration.avaliation.type" id="avaliation_type_pratic">
+            <field name="name">Prática/Apresentação</field>
+        </record>
+        <record model="akademy_configuration.avaliation.type" id="avaliation_type_torecpratic">
+            <field name="name">Teórica e Prática</field>
+        </record>
+        <record model="akademy_configuration.avaliation.type" id="avaliation_type_exame1">
+            <field name="name">Prova</field>
+        </record>
+        <record model="akademy_configuration.avaliation.type" id="avaliation_type_final_exame">
+            <field name="name">Prova Final</field>
+        </record>
+        <record model="akademy_configuration.avaliation.type" id="avaliation_type_exame2">
+            <field name="name">Recurso</field>
+        </record>
+        <record model="akademy_configuration.avaliation.type" id="avaliation_type_exame3">
+            <field name="name">Exame expecial</field>
+        </record>
+        <record model="akademy_configuration.avaliation.type" id="avaliation_type_avaliation1">
+            <field name="name">Avaliação</field>
+        </record>
+        <record model="akademy_configuration.avaliation.type" id="avaliation_type_exame4">
+            <field name="name">Defesa</field>
+        </record>
+        <record model="akademy_configuration.avaliation.type" id="avaliation_type_exame5">
+            <field name="name">Trabalho</field>
+        </record>
+    </data>
+
+    <data grouped="1">
+        <record model="akademy_configuration.time.course" id="classe_time_course_morning">
+            <field name="code">M</field>
+            <field name="name">Manhã</field>            
+            <field name="start_time">07:30</field>
+            <field name="end_time">12:50</field>
+        </record>
+        <record model="akademy_configuration.time.course" id="classe_time_course_afternoom">
+            <field name="code">T</field>
+            <field name="name">Tarde</field>
+            <field name="start_time">13:00</field>
+            <field name="end_time">17:50</field>
+        </record>
+        <record model="akademy_configuration.time.course" id="classe_time_course_evining">
+            <field name="code">N</field>
+            <field name="name">Noite</field>
+            <field name="start_time">18:00</field>
+            <field name="end_time">22:00</field>
+        </record>
+    </data>
+
+    <data grouped="1">
+        <record model="akademy_configuration.classe" id="classe_1">
+            <field name="name">1ª Classe</field>
+            <field name="code">C1</field>
+        </record>
+        <record model="akademy_configuration.classe" id="classe_2">
+            <field name="name">2ª Classe</field>
+            <field name="code">C2</field>
+        </record>
+        <record model="akademy_configuration.classe" id="classe_3">
+            <field name="name">3ª Classe</field>
+            <field name="code">C3</field>
+        </record>
+        <record model="akademy_configuration.classe" id="classe_4">
+            <field name="name">4ª Classe</field>
+            <field name="code">C4</field>
+        </record>
+        <record model="akademy_configuration.classe" id="classe_5">
+            <field name="name">5ª Classe</field>
+            <field name="code">C5</field>
+        </record>
+        <record model="akademy_configuration.classe" id="classe_6">
+            <field name="name">6ª Classe</field>
+            <field name="code">C6</field>
+        </record>
+        <record model="akademy_configuration.classe" id="classe_7">
+            <field name="name">7ª Classe</field>
+            <field name="code">C7</field>
+        </record>
+        <record model="akademy_configuration.classe" id="classe_8">
+            <field name="name">8ª Classe</field>
+            <field name="code">C8</field>
+        </record>
+        <record model="akademy_configuration.classe" id="classe_9">
+            <field name="name">9ª Classe</field>
+            <field name="code">C9</field>
+        </record>
+        <record model="akademy_configuration.classe" id="classe_10">
+            <field name="name">10ª Classe</field>
+            <field name="code">C10</field>
+        </record>
+        <record model="akademy_configuration.classe" id="classe_11">
+            <field name="name">11ª Classe</field>
+            <field name="code">C11</field>
+        </record>
+        <record model="akademy_configuration.classe" id="classe_12">
+            <field name="name">12ª Classe</field>
+            <field name="code">C12</field>
+        </record>
+        <record model="akademy_configuration.classe" id="classe_13">
+            <field name="name">13ª Classe</field>
+            <field name="code">C13</field>
+        </record>
+    </data>
+
+</tryton>

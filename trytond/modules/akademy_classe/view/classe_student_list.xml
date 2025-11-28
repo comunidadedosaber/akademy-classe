@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of SAGE Education.   The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<tree>       
+    <field name="student"/>     
+    <field name="state"/>     
+    <field name="type"/>    
+    <field name="classes"/>
+    <field name="create_date" string="Matrículado" widget="date"/>
+    <field name="write_date" string="Actualizou" widget="date"/>    
+</tree>

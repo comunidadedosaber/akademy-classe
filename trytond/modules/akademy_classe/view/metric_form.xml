@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- This file is part of SAGE Education.   The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form>
+    <group id="metric" colspan="4" col="4">    
+        <label name="name"/>
+        <field name="name"/>  
+    </group>
+    <group id="avaliation" colspan="4" col="4"> 
+        <label name="avaliation"/>
+        <field name="avaliation"/>
+        <label name="avaliation_type"/>
+        <field name="avaliation_type"/> 
+    </group>
+    <notebook colspan="4">
+        <page string="Planos de Estudos" id="studyplan_avaliation">
+            <field name="studyplan_avaliation" mode="tree" colspan="4"
+                view_ids="akademy_classe.studyplan_avaliation_view_list"/>
+        </page>
+    </notebook>
+</form>
