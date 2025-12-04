@@ -4,3 +4,5 @@
 dist/
 build/
 *.egg-info/
+
+trytond/modules/akademy_classe/setup.py
