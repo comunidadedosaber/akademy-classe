@@ -6,7 +6,7 @@ from trytond.report import Report
 from datetime import date
 
 
-#REPORT NÍVEL ACADÉMICO
+
 class AcademicLevelReport(Report):
 	__name__ = 'akademy_report.academic.level.report'
 
@@ -22,7 +22,6 @@ class AcademicLevelReport(Report):
 		return context
 
 
-#REPORT PLANOS DE ESTUDO
 class StudyplanReport(Report):
 	__name__ = 'akademy_report.studyplan.report'
 
@@ -38,7 +37,6 @@ class StudyplanReport(Report):
 		return context
 
 
-#REPORT TURMA
 class ClassesReport(Report):
 	__name__ = 'akademy_report.classes.report'
 
@@ -54,7 +52,6 @@ class ClassesReport(Report):
 		return context
 
 
-#REPORT DISCENTE TIMERULE
 class ClasseStudentTimeRuleReport(Report):
 	__name__ = 'akademy_report.classe.student.timerule.report'
 
@@ -190,7 +187,6 @@ class ClasseStudentTimeRuleReport(Report):
 		return context
 
 
-#REPORT DOCENTE TIMERULE
 class ClasseTeacherTimeRuleReport(Report):
 	__name__ = 'akademy_report.classe.teacher.timerule.report'
 
@@ -326,7 +322,6 @@ class ClasseTeacherTimeRuleReport(Report):
 		return context
 
 
-#REPORT BOLETIM DE MATRÍCULA
 class MatriculationReport(Report):
 	__name__ = 'akademy_report.matriculation.report'
 
@@ -342,7 +337,6 @@ class MatriculationReport(Report):
 		return context
 
 
-#REPORT ESTADO DA MATRÍCULA
 class MatriculationStateReport(Report):
 	__name__ = 'akademy_report.matriculation.state.report'
 
@@ -358,7 +352,6 @@ class MatriculationStateReport(Report):
 		return context
 
 
-#REPORT BOLETIM DE MATRÍCULA DOCENTE
 class MatriculationTeacherReport(Report):
 	__name__ = 'akademy_report.matriculation.teacher.report'
 
@@ -374,7 +367,6 @@ class MatriculationTeacherReport(Report):
 		return context
 
 
-#REPORT PLANO DE AULA
 class ClassesDisciplineLessonsReport(Report):
 	__name__ = 'akademy_report.classes.discipline.lessons.report'
 

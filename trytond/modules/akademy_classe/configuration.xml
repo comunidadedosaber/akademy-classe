@@ -4,11 +4,10 @@ this repository contains the full copyright notices and license terms. -->
 
 <trytond>
 	<data>
-                <!-- CONFIGURAÇÕES -->
                 <menuitem name="Configurações" id="akademy_config" sequence="70"
                         icon="tryton-settings" parent="akademy_ga"/>
                                   
-                <!-- start NÍVEIS ACADÊMICO -->
+                <!-- start academic_level -->
                 <record model="ir.ui.view" id="academic_level_view_form">
                         <field name="model">akademy_configuration.academic.level</field>
                         <field name="type">form</field>
@@ -35,7 +34,7 @@ this repository contains the full copyright notices and license terms. -->
                 </record>
                 <menuitem name="Níveis Acadêmicos" parent="akademy_config" id="akademy_config_academiclevel" 
                         sequence="2" action="act_academiclevel"/>
-                <!-- ÁREA -->
+                
                 <record model="ir.ui.view" id="area_view_form">
                         <field name="model">akademy_configuration.area</field>
                         <field name="type">form</field>
@@ -46,7 +45,7 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="type">tree</field>
                         <field name="name">area_list</field>
                 </record>     
-                <!-- CURSO -->
+                
                 <record model="ir.ui.view" id="course_view_form">
                         <field name="model">akademy_configuration.course</field>
                         <field name="type">form</field>
@@ -57,7 +56,7 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="type">tree</field>
                         <field name="name">course_list</field>
                 </record>  
-                <!-- CLASSE CURSO -->
+                
                 <record model="ir.ui.view" id="course_classe_view_form">
                         <field name="model">akademy_configuration.course.classe</field>
                         <field name="type">form</field>
@@ -68,9 +67,8 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="type">tree</field>
                         <field name="name">course_classe_list</field>
                 </record> 
-                <!-- end NÍVEIS ACADÊMICOS -->
-
-                <!-- start SALA DE AULA -->
+                
+                <!-- start classeroom -->
                 <record model="ir.ui.view" id="classeroom_view_form">
                         <field name="model">akademy_configuration.classe.room</field>
                         <field name="type">form</field>
@@ -97,9 +95,8 @@ this repository contains the full copyright notices and license terms. -->
                 </record>
                 <menuitem name="Salas de Aula" parent="akademy_config" id="akademy_config_classeroom" 
                         sequence="5" action="act_classeroom"/> 
-                <!-- end SALA DE AULA --> 
-
-                <!-- start DISCIPLINA -->
+                
+                <!-- start discipline -->
                 <record model="ir.ui.view" id="discipline_view_form">
                         <field name="model">akademy_configuration.discipline</field>
                         <field name="type">form</field>
@@ -126,9 +123,8 @@ this repository contains the full copyright notices and license terms. -->
                 </record>
                 <menuitem name="Disciplinas" parent="akademy_config" id="akademy_config_discipline" 
                         sequence="9" action="act_discipline"/>
-                <!-- end DISCIPLINA -->
-
-                <!-- sart MÉTRICA -->
+                
+                <!-- sart metric -->
                 <record model="ir.ui.view" id="metric_view_form">
                         <field name="model">akademy_configuration.metric.avaliation</field>
                         <field name="type">form</field>
@@ -155,7 +151,7 @@ this repository contains the full copyright notices and license terms. -->
                 </record>
                 <menuitem name="Métricas" parent="akademy_config" id="akademy_config_metric" 
                         sequence="13" action="act_metric"/>
-                <!-- AVALIAÇÃO -->
+                
                 <record model="ir.ui.view" id="avaliation_view_form">
                         <field name="model">akademy_configuration.avaliation</field>
                         <field name="type">form</field>
@@ -166,7 +162,7 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="type">tree</field>
                         <field name="name">avaliation_list</field>
                 </record>
-                <!-- TIPO AVALIAÇÃO -->
+                
                 <record model="ir.ui.view" id="avaliation_type_view_form">
                         <field name="model">akademy_configuration.avaliation.type</field>
                         <field name="type">form</field>
@@ -177,9 +173,9 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="type">tree</field>
                         <field name="name">avaliation_type_list</field>
                 </record>
-                <!-- end MÉTRICA -->
+                
 
-                <!-- start LECTIVE YEAR -->
+                <!-- start lective_year -->
                 <record model="ir.ui.view" id="lective_year_view_form">
                         <field name="model">akademy_configuration.lective.year</field>
                         <field name="type">form</field>
@@ -206,7 +202,7 @@ this repository contains the full copyright notices and license terms. -->
                 </record>
                 <menuitem name="Anos letivos" parent="akademy_config" id="akademy_config_lective_year" 
                         sequence="23" action="act_lective_year"/>  
-                <!-- TRIMESTRE -->
+                
                 <record model="ir.ui.view" id="quarter_view_form">
                         <field name="model">akademy_configuration.quarter</field>
                         <field name="type">form</field>
@@ -217,9 +213,9 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="type">tree</field>
                         <field name="name">quarter_list</field>
                 </record>                 
-                <!-- end LECTIVE YEAR -->
+                
 
-                <!-- start PLANOS DE ESTUDO -->
+                <!-- start studyplan -->
                 <record model="ir.ui.view" id="studyplan_view_form">
                         <field name="model">akademy_configuration.studyplan</field>
                         <field name="type">form</field>
@@ -230,7 +226,7 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="type">tree</field>
                         <field name="name">studyplan_list</field>
                 </record>                                               
-                <!-- PLANO DE ESTUDO DISCIPLINA -->
+                
                 <record model="ir.ui.view" id="studyplan_discipline_view_form">
                         <field name="model">akademy_configuration.studyplan.discipline</field>
                         <field name="type">form</field>
@@ -241,7 +237,7 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="type">tree</field>
                         <field name="name">studyplan_discipline_list</field>
                 </record>                        
-                <!-- DISCIPLINA PRECEDENTES -->
+                
                 <record model="ir.ui.view" id="discipline_precedents_view_form">
                         <field name="model">akademy_configuration.discipline.precedents</field>
                         <field name="type">form</field>
@@ -252,7 +248,7 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="type">tree</field>
                         <field name="name">discipline_precedents_list</field>
                 </record>
-                <!-- PLANO DE ESTUDO DISCIPLINA AVALIAÇÕES -->
+                
                 <record model="ir.ui.view" id="studyplan_avaliation_view_form">
                         <field name="model">akademy_configuration.studyplan.avaliation</field>
                         <field name="type">form</field>
@@ -263,12 +259,12 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="type">tree</field>
                         <field name="name">studyplan_avaliation_list</field>
                 </record>                        
-                <!-- end PLANOS DE ESTUDO -->
+                
 
                 <menuitem name="Pré-Configurados" id="akademy_config_pre" sequence="95"
                         parent="akademy_config"/>                          
 
-                <!-- start CLASSE -->
+                <!-- start classe -->
                 <record model="ir.ui.view" id="classe_view_form">
                         <field name="model">akademy_configuration.classe</field>
                         <field name="type">form</field>
@@ -295,9 +291,8 @@ this repository contains the full copyright notices and license terms. -->
                 </record>
                 <menuitem name="Classes" parent="akademy_config_pre" id="akademy_config_classe" 
                         sequence="10" action="act_classe"/>  
-                <!-- start  -->
-                
-                <!-- start PERÍODO -->
+                                
+                <!-- start time_course -->
                 <record model="ir.ui.view" id="time_course_view_form">
                         <field name="model">akademy_configuration.time.course</field>
                         <field name="type">form</field>
@@ -324,9 +319,9 @@ this repository contains the full copyright notices and license terms. -->
                 </record>
                 <menuitem name="Períodos" parent="akademy_config_pre" id="akademy_config_time_course" 
                         sequence="14" action="act_time_course"/>
-                <!-- end PERÍODO -->
+                
 
-                <!-- start LESSON TYPE -->
+                <!-- start classe_lesson_type -->
                 <record model="ir.ui.view" id="classe_lesson_type_view_form">
                         <field name="model">akademy_configuration.classe.lesson.type</field>
                         <field name="type">form</field>
@@ -353,9 +348,8 @@ this repository contains the full copyright notices and license terms. -->
                 </record>
                 <menuitem name="Tipos de aula" parent="akademy_config_pre" id="akademy_config_classe_lesson_type" 
                         sequence="18" action="act_classe_lesson_type"/>  
-                <!-- end LESSON TYPE -->
-                                
-                <!-- start CLASSE TIME -->
+                                                
+                <!-- start classe_time_type -->
                 <record model="ir.ui.view" id="classe_time_type_view_form">
                         <field name="model">akademy_configuration.classe.time.type</field>
                         <field name="type">form</field>
@@ -382,9 +376,8 @@ this repository contains the full copyright notices and license terms. -->
                 </record>
                 <menuitem name="Tempos letivo" parent="akademy_config_pre" id="akademy_config_classe_time_type" 
                         sequence="22" action="act_classe_time_type"/>  
-                <!-- end CLASSE TIME -->   
-
-                <!-- start MATRICULATION TYPE -->
+                
+                <!-- start matriculation_type -->
                 <record model="ir.ui.view" id="matriculation_type_view_form">
                         <field name="model">akademy_configuration.matriculation.type</field>
                         <field name="type">form</field>
@@ -411,9 +404,8 @@ this repository contains the full copyright notices and license terms. -->
                 </record>
                 <menuitem name="Tipos de matrícula" parent="akademy_config_pre" id="akademy_config_matriculation_type" 
                         sequence="26" action="act_matriculation_type"/>  
-                <!-- end MATRICULATION TYPE -->
-
-                <!-- start DISCIPLINE STATE -->
+                
+                <!-- start discipline_state -->
                 <record model="ir.ui.view" id="discipline_state_view_form">
                         <field name="model">akademy_configuration.discipline.state</field>
                         <field name="type">form</field>
@@ -440,9 +432,8 @@ this repository contains the full copyright notices and license terms. -->
                 </record>
                 <menuitem name="Estados da disciplina" parent="akademy_config_pre" id="akademy_config_discipline_state" 
                         sequence="30" action="act_discipline_state"/>  
-                <!-- end DISCIPLINE STATE -->                           
-
-                <!-- start MATRICULATION STATE -->
+                
+                <!-- start matriculation_state -->
                 <record model="ir.ui.view" id="matriculation_state_view_form">
                         <field name="model">akademy_configuration.matriculation.state</field>
                         <field name="type">form</field>
@@ -469,9 +460,8 @@ this repository contains the full copyright notices and license terms. -->
                 </record>
                 <menuitem name="Estados da matrícula" parent="akademy_config_pre" id="akademy_config_matriculation_state" 
                         sequence="34" action="act_matriculation_state"/>  
-                <!-- end MATRICULATION STATE -->
-                
-                <!-- start DISCIPLINE MODALITY -->
+                                
+                <!-- start discipline_modality -->
                 <record model="ir.ui.view" id="discipline_modality_view_form">
                         <field name="model">akademy_configuration.discipline.modality</field>
                         <field name="type">form</field>
@@ -498,6 +488,6 @@ this repository contains the full copyright notices and license terms. -->
                 </record>
                 <menuitem name="Modalidades da disciplina" parent="akademy_config_pre" id="akademy_config_discipline_modality" 
                         sequence="38" action="act_discipline_modality"/>  
-                <!-- end DISCIPLINE MODALITY -->                
+                              
         </data>
 </trytond>

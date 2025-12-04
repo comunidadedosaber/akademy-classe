@@ -3,7 +3,7 @@
 
 from trytond.model import fields
 from trytond.pyson import Eval
-from trytond.pool import PoolMeta
+from trytond.pool import Pool, PoolMeta
 
 
 class Employee(metaclass=PoolMeta):
@@ -34,4 +34,11 @@ class Student(metaclass=PoolMeta):
         'Estado', help="Escolha o estado de matrícula.")
     classe_student = fields.One2Many('akademy_classe.classe.student', 
         'student', 'Matrículas')
+    
+    @classmethod
+    def update_student(cls, student, classe, state):
+        MatriculationState = Pool().get('akademy_configuration.matriculation.state')
+        student.classe = classe 
+        student.state = MatriculationState.search([('name', '=', state)])[0]
+        student.save()
 

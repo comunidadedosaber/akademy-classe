@@ -4,162 +4,154 @@ this repository contains the full copyright notices and license terms. -->
 
 <trytond>
 	<data>
-        <!-- start RELATÓRIO DE PLANO DE ESTUDO -->
-        <record model="ir.action.report" id="studyplan_report">
-                <field name="name">Plano de estudo</field>
-                <field name="report_name">akademy_report.studyplan.report</field>
-                <field name="model">akademy_configuration.studyplan</field>
-                <field name="report">akademy_classe/reports/studyplan.odt</field>
-        </record>
-        <record model="ir.action.keyword" id="studyplan_report_keyword">
-                <field name="keyword">form_print</field>
-                <field name="model">akademy_configuration.studyplan,-1</field>
-                <field name="action" ref="studyplan_report"/>
-        </record>
-        <!-- end RELATÓRIO DE PLANO DE ESTUDO -->
+                <!-- start studyplan_report -->
+                <record model="ir.action.report" id="studyplan_report">
+                        <field name="name">Plano de estudo</field>
+                        <field name="report_name">akademy_report.studyplan.report</field>
+                        <field name="model">akademy_configuration.studyplan</field>
+                        <field name="report">akademy_classe/reports/studyplan.odt</field>
+                </record>
+                <record model="ir.action.keyword" id="studyplan_report_keyword">
+                        <field name="keyword">form_print</field>
+                        <field name="model">akademy_configuration.studyplan,-1</field>
+                        <field name="action" ref="studyplan_report"/>
+                </record>
 
-        <!-- start RELATÓRIO DE NÍVEL ACADÉMICO -->
-        <record model="ir.action.report" id="academic_level_report">
-                <field name="name">Níveis académico</field>
-                <field name="report_name">akademy_report.academic.level.report</field>
-                <field name="model">akademy_configuration.academic.level</field>
-                <field name="report">akademy_classe/reports/academic_level.odt</field>
-        </record>
-        <record model="ir.action.keyword" id="academic_level_report_keyword">
-                <field name="keyword">form_print</field>
-                <field name="model">akademy_configuration.academic.level,-1</field>
-                <field name="action" ref="academic_level_report"/>
-        </record>
-        <!-- start RELATÓRIO DE NÍVEL ACADÉMICO -->
+                <!-- start academic_level_report -->
+                <record model="ir.action.report" id="academic_level_report">
+                        <field name="name">Níveis académico</field>
+                        <field name="report_name">akademy_report.academic.level.report</field>
+                        <field name="model">akademy_configuration.academic.level</field>
+                        <field name="report">akademy_classe/reports/academic_level.odt</field>
+                </record>
+                <record model="ir.action.keyword" id="academic_level_report_keyword">
+                        <field name="keyword">form_print</field>
+                        <field name="model">akademy_configuration.academic.level,-1</field>
+                        <field name="action" ref="academic_level_report"/>
+                </record>
 
-        <!-- start RELATÓRIO DE MATRÍCULA DISCENTE -->
-        <record model="ir.action.report" id="matriculation_report">
-                <field name="name">Boletim matrícula</field>
-                <field name="report_name">akademy_report.matriculation.report</field>
-                <field name="model">akademy_classe.classe.student</field>
-                <field name="report">akademy_classe/reports/matriculation.odt</field>
-        </record>
-        <record model="ir.action.keyword" id="matriculation_report_keyword">
-                <field name="keyword">form_print</field>
-                <field name="model">akademy_classe.classe.student,-1</field>
-                <field name="action" ref="matriculation_report"/>
-        </record>
-        
-        <record model="ir.action.report" id="matriculation_state_report">
-                <field name="name">Estado da matrícula</field>
-                <field name="report_name">akademy_report.matriculation.state.report</field>
-                <field name="model">akademy_classe.classe.student</field>
-                <field name="report">akademy_classe/reports/matriculation_state.odt</field>
-        </record>
-        <record model="ir.action.keyword" id="matriculation_state_report_keyword">
-                <field name="keyword">form_print</field>
-                <field name="model">akademy_classe.classe.student,-1</field>
-                <field name="action" ref="matriculation_state_report"/>
-        </record>
-        <!-- end RELATÓRIO DE MATRÍCULA DISCENTE-->
+                <!-- start matriculation_report -->
+                <record model="ir.action.report" id="matriculation_report">
+                        <field name="name">Boletim matrícula</field>
+                        <field name="report_name">akademy_report.matriculation.report</field>
+                        <field name="model">akademy_classe.classe.student</field>
+                        <field name="report">akademy_classe/reports/matriculation.odt</field>
+                </record>
+                <record model="ir.action.keyword" id="matriculation_report_keyword">
+                        <field name="keyword">form_print</field>
+                        <field name="model">akademy_classe.classe.student,-1</field>
+                        <field name="action" ref="matriculation_report"/>
+                </record>
+                
+                <record model="ir.action.report" id="matriculation_state_report">
+                        <field name="name">Estado da matrícula</field>
+                        <field name="report_name">akademy_report.matriculation.state.report</field>
+                        <field name="model">akademy_classe.classe.student</field>
+                        <field name="report">akademy_classe/reports/matriculation_state.odt</field>
+                </record>
+                <record model="ir.action.keyword" id="matriculation_state_report_keyword">
+                        <field name="keyword">form_print</field>
+                        <field name="model">akademy_classe.classe.student,-1</field>
+                        <field name="action" ref="matriculation_state_report"/>
+                </record>
+                
+                <record model="ir.action.report" id="matriculation_teacher_report">
+                        <field name="name">Recibo de matrícula</field>
+                        <field name="report_name">akademy_report.matriculation.teacher.report</field>
+                        <field name="model">akademy_classe.classe.teacher</field>
+                        <field name="report">akademy_classe/reports/matriculation_teacher.odt</field>
+                </record>
+                <record model="ir.action.keyword" id="matriculation_teacher_report_keyword">
+                        <field name="keyword">form_print</field>
+                        <field name="model">akademy_classe.classe.teacher,-1</field>
+                        <field name="action" ref="matriculation_teacher_report"/>
+                </record>
 
-        <!-- start RELATÓRIO DE MATRÍCULA DOCENTE -->
-        <record model="ir.action.report" id="matriculation_teacher_report">
-                <field name="name">Recibo de matrícula</field>
-                <field name="report_name">akademy_report.matriculation.teacher.report</field>
-                <field name="model">akademy_classe.classe.teacher</field>
-                <field name="report">akademy_classe/reports/matriculation_teacher.odt</field>
-        </record>
-        <record model="ir.action.keyword" id="matriculation_teacher_report_keyword">
-                <field name="keyword">form_print</field>
-                <field name="model">akademy_classe.classe.teacher,-1</field>
-                <field name="action" ref="matriculation_teacher_report"/>
-        </record>
-        <!-- end RELATÓRIO DE MATRÍCULA DOCENTE-->
+                <!-- start classes_report -->
+                <record model="ir.action.report" id="classes_report">
+                        <field name="name">Ficha da turma</field>
+                        <field name="report_name">akademy_report.classes.report</field>
+                        <field name="model">akademy_classe.classes</field>
+                        <field name="report">akademy_classe/reports/classes.odt</field>
+                </record>
+                <record model="ir.action.keyword" id="classes_report_keyword">
+                        <field name="keyword">form_print</field>
+                        <field name="model">akademy_classe.classes,-1</field>
+                        <field name="action" ref="classes_report"/>
+                </record>
+                
+                <record model="ir.action.report" id="classes_timerule_report">
+                        <field name="name">Horário</field>
+                        <field name="report_name">akademy_report.classes.report</field>
+                        <field name="model">akademy_classe.classes</field>
+                        <field name="report">akademy_classe/reports/classes_timerule.odt</field>
+                </record>
+                <record model="ir.action.keyword" id="classes_timerule_report_keyword">
+                        <field name="keyword">form_print</field>
+                        <field name="model">akademy_classe.classes,-1</field>
+                        <field name="action" ref="classes_timerule_report"/>
+                </record>
+                
+                <record model="ir.action.report" id="classe_student_timerule_report">
+                        <field name="name">Horário</field>
+                        <field name="report_name">akademy_report.classe.student.timerule.report</field>
+                        <field name="model">akademy_classe.classe.student</field>
+                        <field name="report">akademy_classe/reports/classes_student_timerule.odt</field>
+                </record>
+                <record model="ir.action.keyword" id="classe_student_timerule_report_keyword">
+                        <field name="keyword">form_print</field>
+                        <field name="model">akademy_classe.classe.student,-1</field>
+                        <field name="action" ref="classe_student_timerule_report"/>
+                </record>
+                
+                <record model="ir.action.report" id="classe_teacher_timerule_report">
+                        <field name="name">Horário</field>
+                        <field name="report_name">akademy_report.classe.teacher.timerule.report</field>
+                        <field name="model">akademy_classe.classe.teacher</field>
+                        <field name="report">akademy_classe/reports/classes_teacher_timerule.odt</field>
+                </record>
+                <record model="ir.action.keyword" id="classe_teacher_timerule_report_keyword">
+                        <field name="keyword">form_print</field>
+                        <field name="model">akademy_classe.classe.teacher,-1</field>
+                        <field name="action" ref="classe_teacher_timerule_report"/>
+                </record>
+                
+                <record model="ir.action.report" id="classes_students_report">
+                        <field name="name">Lista de Discentes</field>
+                        <field name="report_name">akademy_report.classes.report</field>
+                        <field name="model">akademy_classe.classes</field>
+                        <field name="report">akademy_classe/reports/classes_students.odt</field>
+                </record>
+                <record model="ir.action.keyword" id="classes_students_report_keyword">
+                        <field name="keyword">form_print</field>
+                        <field name="model">akademy_classe.classes,-1</field>
+                        <field name="action" ref="classes_students_report"/>
+                </record>
+                
+                <record model="ir.action.report" id="classes_teachers_report">
+                        <field name="name">Lista de Docentes</field>
+                        <field name="report_name">akademy_report.classes.report</field>
+                        <field name="model">akademy_classe.classes</field>
+                        <field name="report">akademy_classe/reports/classes_teachers.odt</field>
+                </record>
+                <record model="ir.action.keyword" id="classes_teachers_report_keyword">
+                        <field name="keyword">form_print</field>
+                        <field name="model">akademy_classe.classes,-1</field>
+                        <field name="action" ref="classes_teachers_report"/>
+                </record>
 
-        <!-- start RELATÓRIO DE TURMAS -->
-        <!-- DADOS DA TURMA -->
-        <record model="ir.action.report" id="classes_report">
-                <field name="name">Ficha da turma</field>
-                <field name="report_name">akademy_report.classes.report</field>
-                <field name="model">akademy_classe.classes</field>
-                <field name="report">akademy_classe/reports/classes.odt</field>
-        </record>
-        <record model="ir.action.keyword" id="classes_report_keyword">
-                <field name="keyword">form_print</field>
-                <field name="model">akademy_classe.classes,-1</field>
-                <field name="action" ref="classes_report"/>
-        </record>
-        <!-- HORÁRIO DA TURMA -->
-        <record model="ir.action.report" id="classes_timerule_report">
-                <field name="name">Horário</field>
-                <field name="report_name">akademy_report.classes.report</field>
-                <field name="model">akademy_classe.classes</field>
-                <field name="report">akademy_classe/reports/classes_timerule.odt</field>
-        </record>
-        <record model="ir.action.keyword" id="classes_timerule_report_keyword">
-                <field name="keyword">form_print</field>
-                <field name="model">akademy_classe.classes,-1</field>
-                <field name="action" ref="classes_timerule_report"/>
-        </record>
-        <!-- HORÁRIO DISCENTE -->
-        <record model="ir.action.report" id="classe_student_timerule_report">
-                <field name="name">Horário</field>
-                <field name="report_name">akademy_report.classe.student.timerule.report</field>
-                <field name="model">akademy_classe.classe.student</field>
-                <field name="report">akademy_classe/reports/classes_student_timerule.odt</field>
-        </record>
-        <record model="ir.action.keyword" id="classe_student_timerule_report_keyword">
-                <field name="keyword">form_print</field>
-                <field name="model">akademy_classe.classe.student,-1</field>
-                <field name="action" ref="classe_student_timerule_report"/>
-        </record>
-        <!-- HORÁRIO DOCENTE -->
-        <record model="ir.action.report" id="classe_teacher_timerule_report">
-                <field name="name">Horário</field>
-                <field name="report_name">akademy_report.classe.teacher.timerule.report</field>
-                <field name="model">akademy_classe.classe.teacher</field>
-                <field name="report">akademy_classe/reports/classes_teacher_timerule.odt</field>
-        </record>
-        <record model="ir.action.keyword" id="classe_teacher_timerule_report_keyword">
-                <field name="keyword">form_print</field>
-                <field name="model">akademy_classe.classe.teacher,-1</field>
-                <field name="action" ref="classe_teacher_timerule_report"/>
-        </record>
-        <!-- LISTA DE DISCENTES DA TURMA -->
-        <record model="ir.action.report" id="classes_students_report">
-                <field name="name">Lista de Discentes</field>
-                <field name="report_name">akademy_report.classes.report</field>
-                <field name="model">akademy_classe.classes</field>
-                <field name="report">akademy_classe/reports/classes_students.odt</field>
-        </record>
-        <record model="ir.action.keyword" id="classes_students_report_keyword">
-                <field name="keyword">form_print</field>
-                <field name="model">akademy_classe.classes,-1</field>
-                <field name="action" ref="classes_students_report"/>
-        </record>
-        <!-- LISTA DE DOCENTES DA TURMA -->
-        <record model="ir.action.report" id="classes_teachers_report">
-                <field name="name">Lista de Docentes</field>
-                <field name="report_name">akademy_report.classes.report</field>
-                <field name="model">akademy_classe.classes</field>
-                <field name="report">akademy_classe/reports/classes_teachers.odt</field>
-        </record>
-        <record model="ir.action.keyword" id="classes_teachers_report_keyword">
-                <field name="keyword">form_print</field>
-                <field name="model">akademy_classe.classes,-1</field>
-                <field name="action" ref="classes_teachers_report"/>
-        </record>
-        <!-- end RELATÓRIO DE TURMAS -->
-
-        <!-- start PLANO DE AULAS -->
-        <record model="ir.action.report" id="discipline_lessons_report">
-                <field name="name">Plano de aula</field>
-                <field name="report_name">akademy_report.classes.discipline.lessons.report</field>
-                <field name="model">akademy_classe.classe.teacher.lesson</field>
-                <field name="report">akademy_classe/reports/discipline_lessons.odt</field>
-        </record>
-        <record model="ir.action.keyword" id="discipline_lessons_report_keyword">
-                <field name="keyword">form_print</field>
-                <field name="model">akademy_classe.classe.teacher.lesson,-1</field>
-                <field name="action" ref="discipline_lessons_report"/>
-        </record>
-        <!-- end PLANO DE AULAS -->
+                <!-- start discipline_lessons_report -->
+                <record model="ir.action.report" id="discipline_lessons_report">
+                        <field name="name">Plano de aula</field>
+                        <field name="report_name">akademy_report.classes.discipline.lessons.report</field>
+                        <field name="model">akademy_classe.classe.teacher.lesson</field>
+                        <field name="report">akademy_classe/reports/discipline_lessons.odt</field>
+                </record>
+                <record model="ir.action.keyword" id="discipline_lessons_report_keyword">
+                        <field name="keyword">form_print</field>
+                        <field name="model">akademy_classe.classe.teacher.lesson,-1</field>
+                        <field name="action" ref="discipline_lessons_report"/>
+                </record>
         
 	</data>
 </trytond>

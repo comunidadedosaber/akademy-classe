@@ -4,7 +4,7 @@ this repository contains the full copyright notices and license terms. -->
 
 <tryton>
     <data>
-        <!-- start DISCENTES -->
+        <!-- start company_student -->
         <record model="ir.ui.view" id="company_student_view_form">
             <field name="model">company.student</field>
             <field name="inherit" ref="akademy_company.student_view_form"/>
@@ -15,6 +15,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="inherit" ref="akademy_company.student_view_list"/>
             <field name="name">company_student_list</field>
         </record>
-        <!-- end DISCENTES --> 
+        
     </data>
 </tryton>
